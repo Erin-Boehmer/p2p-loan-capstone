@@ -1,0 +1,24 @@
+Generate plots for first presentation
+
+```{r}
+setwd("C:/Users/Nathan/Documents/courses/capstone/p2p-loan-capstone")
+source("lendingclub.R")
+source("ggsurv.R")
+loans = readLoans("joined.csv")
+
+# Basic survival model
+loans$observedMonths = loans$n
+loans$observedMonths[!loans$censored] = loans$firstMissed[!loans$censored]
+
+loans.fit = with(loans, survfit(Surv(observedMonths, !censored)~term))
+ggsurv(loans.fit) + theme_bw() + ggtitle("Overall Survival Model")
+
+
+# Graph recovery trends
+x = loans %>% 
+  filter(dueWhenFirstMissed>0 & loan_status %in% c("Charged Off", "Fully Paid")) %>%
+  mutate(recoveredFraction=receivedAfterMissed/dueWhenFirstMissed) %>% 
+  select(recoveredFraction) %>%
+  collect()
+qplot(x$recoveredFraction, geom = "density", xlim=c(0,1.3), xlab = "Percentage Recovered", main = "Recovery after first missed payment")
+```
