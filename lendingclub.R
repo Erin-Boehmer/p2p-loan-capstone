@@ -1,5 +1,6 @@
 library(dplyr)
 library(MonetDB.R)
+library(fastpseudo)
 
 # Combine source csv loan files into a processed file
 combineLoanFiles = function() {
@@ -39,7 +40,8 @@ combineLoanFiles = function() {
 
 # Read data from a processed csv file with one row per loan
 readLoans = function(filename) {
-  read.csv(filename, encoding="UTF-8", colClasses=c(issue_d="Date", last_pymnt_d="Date", next_pymnt_d="Date", last_credit_pull_d="Date"))
+  df = read.csv(filename, encoding="UTF-8", colClasses=c(issue_d="Date", last_pymnt_d="Date", next_pymnt_d="Date", last_credit_pull_d="Date"))
+  row.names(df) = df$id
 }
 
 # Load loan history csv file into MonetDB
@@ -70,7 +72,7 @@ joinHistory = function() {
     # Read needed columns into memory for further processing
     select(loan_id, mob, received_amt=received_amt2, due_amt=due_amt_investors, co, pbal_beg_period_investors) %>%
     collect()
-  
+
   # Calculate summary features for each loan's history
   outcomedf = tbl_df(histdf) %>%
     group_by(loan_id) %>%
@@ -87,11 +89,32 @@ joinHistory = function() {
 # Input - the payment history dataframe
 # Output - summary statistics
 analyzeHistory = function(df) {
+  # Find matching record in the loan table
+  loan = loans[as.character(df$loan_id[1]),]
+  if(nrow(loan) != 1)
+    stop("Unable to find loan record for ", df$loan_id[1])
+  
+  # Pull the initial investment amount
+  investment = loan$funded_amnt_inv
+  
+  # Pull the historical 3 or 5 year treasury constant maturity rate, for calculating NPV
+  if(loan$term == "36 months") {
+    #riskFreeRate = 1 + riskfree$treasury3year[riskfree$observation_date==loan$issue_d]/100
+    discount = riskfreediscount$discount3yr
+  } else {
+    #riskFreeRate = 1 + riskfree$treasury5year[riskfree$observation_date==loan$issue_d]/100
+    discount = riskfreediscount$discount5yr
+  }
+
   # There can be a mob 0, if the borrower sends in an extra payment before their first payment is due
   offset = 1
   if(df$mob[1]==0)
     offset = 2
   n = nrow(df)
+  discount = discount[riskfreediscount$observation_date==loan$issue_d][offset:n]
+  npv = (drop(discount %*% df$received_amt) - investment)/investment
+  npvCensored = loan$loan_status %in% c('Fully Paid','Charged Off')
+
   censored = TRUE
   firstMissed = -1
   # There might only be a mob 0, in which case we skip the loop 
@@ -110,9 +133,7 @@ analyzeHistory = function(df) {
     # Find the mob for the first missed payment
     for(i in offset:n) {
       r = df$received_amt[i]
-      if(is.na(r)) r = 0
       d = df$due_amt[i]
-      if(is.na(d)) d = 0
       if(r + 0.01 < d) {
         firstMissed = df$mob[i]
         dueWhenFirstMissed = df$pbal_beg_period_investors[i]
@@ -120,7 +141,6 @@ analyzeHistory = function(df) {
         break
       }
     }
-    
   }
   if(censored) {
     receivedAfterMissed = 0
@@ -129,5 +149,20 @@ analyzeHistory = function(df) {
     receivedAfterMissed = sum(df$received_amt[(firstMissed+offset):n], na.rm = TRUE)
   }
   anyco = any(df$co==1)
-  data_frame(firstMissed, censored, n, receivedAfterMissed, mobok, anyco, dueWhenFirstMissed)
+  data_frame(firstMissed, censored, n, receivedAfterMissed, mobok, anyco, dueWhenFirstMissed, npv, npvCensored)
+}
+
+calculatePseudoValues = function() {
+  outcomes = read.csv("data/outcomes.csv")
+  
+  outcomes$firstMissedOrLastObserved = outcomes$firstMissed
+  outcomes$firstMissedOrLastObserved[!outcomes$missedPayment] = outcomes$monthsObserved[!outcomes$missedPayment]
+  
+  # fast_pseudo_mean requires non-negative integer "survival times", so I binned the npv values
+  outcomes$npvPseudo = with(outcomes, fast_pseudo_mean(floor((npv+1)*100/1.5), finalStatusCompleted, 100))
+  outcomes$firstMissedPseudo18 = fast_pseudo_mean(outcomes$firstMissedOrLastObserved, outcomes$missedPayment, 18)
+  outcomes$firstMissedPseudo24 = fast_pseudo_mean(outcomes$firstMissedOrLastObserved, outcomes$missedPayment, 24)
+  outcomes$firstMissedPseudo36 = fast_pseudo_mean(outcomes$firstMissedOrLastObserved, outcomes$missedPayment, 36)
+  
+  write.csv(outcomes, "data/outcomes.csv")
 }
