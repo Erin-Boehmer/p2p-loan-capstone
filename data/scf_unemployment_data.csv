@@ -1,0 +1,916 @@
+,City,State,Zip3,County,2005,2006,2007,2008    ,2009,2010,2011,2012,2013,2014
+0,MELVILLE,NY,005,Nassau County,4.0     ,3.7     ,3.7,4.7,6.9,7.1,6.8,7.0,5.9,4.8
+1,SAN JUAN,PR,006,San Juan Municipio,8.0     ,7.3     ,8.1,8.7,11.1,10.3,10.0,9.0,8.3,8.3
+2,SAN JUAN,PR,007,San Juan Municipio,8.0     ,7.3     ,8.1,8.7,11.1,10.3,10.0,9.0,8.3,8.3
+3,SAN JUAN,PR,008,San Juan Municipio,8.0     ,7.3     ,8.1,8.7,11.1,10.3,10.0,9.0,8.3,8.3
+4,SAN JUAN,PR,009,San Juan Municipio,8.0     ,7.3     ,8.1,8.7,11.1,10.3,10.0,9.0,8.3,8.3
+5,SPRINGFIELD,MA,010,Hampden County,5.8     ,6.0     ,5.7,6.7,9.3,10.4,9.5,8.8,9.1,7.8
+6,SPRINGFIELD,MA,011,Hampden County,5.8     ,6.0     ,5.7,6.7,9.3,10.4,9.5,8.8,9.1,7.8
+7,SPRINGFIELD,MA,012,Hampden County,5.8     ,6.0     ,5.7,6.7,9.3,10.4,9.5,8.8,9.1,7.8
+8,SPRINGFIELD,MA,013,Hampden County,5.8     ,6.0     ,5.7,6.7,9.3,10.4,9.5,8.8,9.1,7.8
+9,SHREWSBURY,MA,014,Worcester County,5.2     ,5.3     ,5.1,6.0,8.9,8.9,7.8,7.2,7.3,6.2
+10,SHREWSBURY,MA,015,Worcester County,5.2     ,5.3     ,5.1,6.0,8.9,8.9,7.8,7.2,7.3,6.2
+11,SHREWSBURY,MA,016,Worcester County,5.2     ,5.3     ,5.1,6.0,8.9,8.9,7.8,7.2,7.3,6.2
+12,SHREWSBURY,MA,017,Worcester County,5.2     ,5.3     ,5.1,6.0,8.9,8.9,7.8,7.2,7.3,6.2
+13,NORTH READING,MA,018,Middlesex County,4.1     ,4.1     ,3.8,4.5,6.9,6.9,5.9,5.4,5.5,4.6
+14,NORTH READING,MA,019,Middlesex County,4.1     ,4.1     ,3.8,4.5,6.9,6.9,5.9,5.4,5.5,4.6
+15,BROCKTON,MA,020,Plymouth County,4.9     ,5.0     ,4.9,5.9,8.5,9.0,7.8,7.1,7.0,6.0
+16,BOSTON,MA,021,Suffolk County,5.3     ,5.1     ,4.6,5.4,7.7,7.7,6.7,6.2,6.3,5.4
+17,BOSTON,MA,022,Suffolk County,5.3     ,5.1     ,4.6,5.4,7.7,7.7,6.7,6.2,6.3,5.4
+18,BROCKTON,MA,023,Plymouth County,4.9     ,5.0     ,4.9,5.9,8.5,9.0,7.8,7.1,7.0,6.0
+19,WALTHAM,MA,024,Middlesex County,4.1     ,4.1     ,3.8,4.5,6.9,6.9,5.9,5.4,5.5,4.6
+20,WAREHAM,MA,025,Plymouth County,4.9     ,5.0     ,4.9,5.9,8.5,9.0,7.8,7.1,7.0,6.0
+21,WAREHAM,MA,026,Plymouth County,4.9     ,5.0     ,4.9,5.9,8.5,9.0,7.8,7.1,7.0,6.0
+22,PROVIDENCE,RI,027,Providence County,5.4     ,5.3     ,5.6,8.4,11.9,11.9,11.8,11.0,9.8,8.2
+23,PROVIDENCE,RI,028,Providence County,5.4     ,5.3     ,5.6,8.4,11.9,11.9,11.8,11.0,9.8,8.2
+24,PROVIDENCE,RI,029,Providence County,5.4     ,5.3     ,5.6,8.4,11.9,11.9,11.8,11.0,9.8,8.2
+25,MANCHESTER,NH,030,Hillsborough County,3.6     ,3.6     ,3.5,3.9,6.5,6.1,5.6,5.8,5.3,4.5
+26,MANCHESTER,NH,031,Hillsborough County,3.6     ,3.6     ,3.5,3.9,6.5,6.1,5.6,5.8,5.3,4.5
+27,MANCHESTER,NH,032,Hillsborough County,3.6     ,3.6     ,3.5,3.9,6.5,6.1,5.6,5.8,5.3,4.5
+28,MANCHESTER,NH,033,Hillsborough County,3.6     ,3.6     ,3.5,3.9,6.5,6.1,5.6,5.8,5.3,4.5
+29,MANCHESTER,NH,034,Hillsborough County,3.6     ,3.6     ,3.5,3.9,6.5,6.1,5.6,5.8,5.3,4.5
+30,WHITE RIVER JUNCTION,VT,035,Windsor County,3.0     ,3.0     ,3.4,3.8,5.8,6.1,5.4,4.6,4.1,3.7
+31,WHITE RIVER JUNCTION,VT,036,Windsor County,3.0     ,3.0     ,3.4,3.8,5.8,6.1,5.4,4.6,4.1,3.7
+32,WHITE RIVER JUNCTION,VT,037,Windsor County,3.0     ,3.0     ,3.4,3.8,5.8,6.1,5.4,4.6,4.1,3.7
+33,PORTSMOUTH,NH,038,Rockingham County,4.1     ,3.8     ,3.8,4.2,6.6,6.0,5.6,5.8,5.5,4.7
+34,PORTSMOUTH,NH,039,Rockingham County,4.1     ,3.8     ,3.8,4.2,6.6,6.0,5.6,5.8,5.5,4.7
+35,SCARBOROUGH,ME,040,Cumberland County,3.6     ,3.4     ,3.4,4.2,6.5,6.6,6.3,6.0,5.3,4.4
+36,SCARBOROUGH,ME,041,Cumberland County,3.6     ,3.4     ,3.4,4.2,6.5,6.6,6.3,6.0,5.3,4.4
+37,SCARBOROUGH,ME,042,Cumberland County,3.6     ,3.4     ,3.4,4.2,6.5,6.6,6.3,6.0,5.3,4.4
+38,SCARBOROUGH,ME,043,Cumberland County,3.6     ,3.4     ,3.4,4.2,6.5,6.6,6.3,6.0,5.3,4.4
+39,HAMPDEN,ME,044,Penobscot County,5.1     ,5.0     ,5.1,5.8,8.2,8.6,8.4,7.8,6.9,6.2
+40,SCARBOROUGH,ME,045,Cumberland County,3.6     ,3.4     ,3.4,4.2,6.5,6.6,6.3,6.0,5.3,4.4
+41,HAMPDEN,ME,046,Penobscot County,5.1     ,5.0     ,5.1,5.8,8.2,8.6,8.4,7.8,6.9,6.2
+42,HAMPDEN,ME,047,Penobscot County,5.1     ,5.0     ,5.1,5.8,8.2,8.6,8.4,7.8,6.9,6.2
+43,SCARBOROUGH,ME,048,Cumberland County,3.6     ,3.4     ,3.4,4.2,6.5,6.6,6.3,6.0,5.3,4.4
+44,HAMPDEN,ME,049,Penobscot County,5.1     ,5.0     ,5.1,5.8,8.2,8.6,8.4,7.8,6.9,6.2
+45,WHITE RIVER JUNCTION,VT,050,Windsor County,3.0     ,3.0     ,3.4,3.8,5.8,6.1,5.4,4.6,4.1,3.7
+46,WHITE RIVER JUNCTION,VT,051,Windsor County,3.0     ,3.0     ,3.4,3.8,5.8,6.1,5.4,4.6,4.1,3.7
+47,WHITE RIVER JUNCTION,VT,052,Windsor County,3.0     ,3.0     ,3.4,3.8,5.8,6.1,5.4,4.6,4.1,3.7
+48,WHITE RIVER JUNCTION,VT,053,Windsor County,3.0     ,3.0     ,3.4,3.8,5.8,6.1,5.4,4.6,4.1,3.7
+49,ESSEX JUNCTION,VT,054,Chittenden County,3.1     ,3.2     ,3.4,4.0,5.6,4.8,4.1,3.7,3.4,3.1
+50,NORTH READING,MA,055,Middlesex County,4.1     ,4.1     ,3.8,4.5,6.9,6.9,5.9,5.4,5.5,4.6
+51,ESSEX JUNCTION,VT,056,Chittenden County,3.1     ,3.2     ,3.4,4.0,5.6,4.8,4.1,3.7,3.4,3.1
+52,WHITE RIVER JUNCTION,VT,057,Windsor County,3.0     ,3.0     ,3.4,3.8,5.8,6.1,5.4,4.6,4.1,3.7
+53,WHITE RIVER JUNCTION,VT,058,Windsor County,3.0     ,3.0     ,3.4,3.8,5.8,6.1,5.4,4.6,4.1,3.7
+54,WHITE RIVER JUNCTION,VT,059,Windsor County,3.0     ,3.0     ,3.4,3.8,5.8,6.1,5.4,4.6,4.1,3.7
+55,HARTFORD,CT,060,Hartford County,5.3     ,4.7     ,4.9,6.0,8.3,9.5,9.2,8.7,8.0,6.9
+56,HARTFORD,CT,061,Hartford County,5.3     ,4.7     ,4.9,6.0,8.3,9.5,9.2,8.7,8.0,6.9
+57,HARTFORD,CT,062,Hartford County,5.3     ,4.7     ,4.9,6.0,8.3,9.5,9.2,8.7,8.0,6.9
+58,WALLINGFORD,CT,063,New Haven County,5.3     ,4.8     ,4.9,6.2,8.6,10.0,9.7,9.1,8.4,7.2
+59,WALLINGFORD,CT,064,New Haven County,5.3     ,4.8     ,4.9,6.2,8.6,10.0,9.7,9.1,8.4,7.2
+60,WALLINGFORD,CT,065,New Haven County,5.3     ,4.8     ,4.9,6.2,8.6,10.0,9.7,9.1,8.4,7.2
+61,WALLINGFORD,CT,066,New Haven County,5.3     ,4.8     ,4.9,6.2,8.6,10.0,9.7,9.1,8.4,7.2
+62,WATERBURY,CT,067,New Haven County,5.3     ,4.8     ,4.9,6.2,8.6,10.0,9.7,9.1,8.4,7.2
+63,STAMFORD,CT,068,Fairfield County,4.4     ,3.8     ,3.9,5.2,7.5,8.4,8.2,7.8,7.2,6.2
+64,STAMFORD,CT,069,Fairfield County,4.4     ,3.8     ,3.9,5.2,7.5,8.4,8.2,7.8,7.2,6.2
+65,KEARNY,NJ,070,Hudson County,5.5     ,5.6     ,5.0,6.2,10.5,9.6,9.2,9.1,8.0,6.5
+66,KEARNY,NJ,071,Hudson County,5.5     ,5.6     ,5.0,6.2,10.5,9.6,9.2,9.1,8.0,6.5
+67,KEARNY,NJ,072,Hudson County,5.5     ,5.6     ,5.0,6.2,10.5,9.6,9.2,9.1,8.0,6.5
+68,KEARNY,NJ,073,Hudson County,5.5     ,5.6     ,5.0,6.2,10.5,9.6,9.2,9.1,8.0,6.5
+69,TETERBORO,NJ,074,Bergen County,3.7     ,3.9     ,3.4,4.4,7.8,8.0,7.7,7.7,6.7,5.4
+70,TETERBORO,NJ,075,Bergen County,3.7     ,3.9     ,3.4,4.4,7.8,8.0,7.7,7.7,6.7,5.4
+71,TETERBORO,NJ,076,Bergen County,3.7     ,3.9     ,3.4,4.4,7.8,8.0,7.7,7.7,6.7,5.4
+72,EATONTOWN,NJ,077,Monmouth County,4.1     ,4.2     ,3.7,4.8,8.3,8.7,8.5,8.7,7.4,6.0
+73,WHIPPANY,NJ,078,Morris County,3.3     ,3.4     ,3.0,3.9,7.1,7.4,7.0,7.0,6.1,4.9
+74,WHIPPANY,NJ,079,Morris County,3.3     ,3.4     ,3.0,3.9,7.1,7.4,7.0,7.0,6.1,4.9
+75,BELLMAWR,NJ,080,Camden County,4.8     ,5.3     ,4.8,5.9,9.9,11.0,10.8,10.6,9.2,7.5
+76,BELLMAWR,NJ,081,Camden County,4.8     ,5.3     ,4.8,5.9,9.9,11.0,10.8,10.6,9.2,7.5
+77,BELLMAWR,NJ,082,Camden County,4.8     ,5.3     ,4.8,5.9,9.9,11.0,10.8,10.6,9.2,7.5
+78,BELLMAWR,NJ,083,Camden County,4.8     ,5.3     ,4.8,5.9,9.9,11.0,10.8,10.6,9.2,7.5
+79,BELLMAWR,NJ,084,Camden County,4.8     ,5.3     ,4.8,5.9,9.9,11.0,10.8,10.6,9.2,7.5
+80,TRENTON,NJ,085,Mercer County,3.9     ,4.3     ,3.8,4.7,7.6,8.4,8.2,8.2,7.1,5.7
+81,TRENTON,NJ,086,Mercer County,3.9     ,4.3     ,3.8,4.7,7.6,8.4,8.2,8.2,7.1,5.7
+82,TRENTON,NJ,087,Mercer County,3.9     ,4.3     ,3.8,4.7,7.6,8.4,8.2,8.2,7.1,5.7
+83,EDISON,NJ,088,Middlesex County,4.2     ,4.4     ,3.9,4.9,8.5,8.9,8.7,8.6,7.4,6.0
+84,EDISON,NJ,089,Middlesex County,4.2     ,4.4     ,3.9,4.9,8.5,8.9,8.7,8.6,7.4,6.0
+85,NEW YORK,NY,100,New York County,5.1     ,4.3     ,4.3,4.9,8.4,8.6,7.8,8.0,7.4,6.1
+86,NEW YORK,NY,101,New York County,5.1     ,4.3     ,4.3,4.9,8.4,8.6,7.8,8.0,7.4,6.1
+87,NEW YORK,NY,102,New York County,5.1     ,4.3     ,4.3,4.9,8.4,8.6,7.8,8.0,7.4,6.1
+88,STATEN ISLAND,NY,103,Richmond County,5.3     ,4.5     ,4.6,5.1,8.2,9.4,9.1,9.3,8.7,7.2
+89,BRONX,NY,104,Bronx County,7.6     ,6.7     ,6.8,7.6,12.0,12.0,12.0,12.5,11.7,9.8
+90,WHITE PLAINS,NY,105,Westchester County,4.0     ,3.8     ,3.7,4.8,7.1,7.4,7.1,7.3,6.3,5.1
+91,WHITE PLAINS,NY,106,Westchester County,4.0     ,3.8     ,3.7,4.8,7.1,7.4,7.1,7.3,6.3,5.1
+92,WHITE PLAINS,NY,107,Westchester County,4.0     ,3.8     ,3.7,4.8,7.1,7.4,7.1,7.3,6.3,5.1
+93,WHITE PLAINS,NY,108,Westchester County,4.0     ,3.8     ,3.7,4.8,7.1,7.4,7.1,7.3,6.3,5.1
+94,WHITE PLAINS,NY,109,Westchester County,4.0     ,3.8     ,3.7,4.8,7.1,7.4,7.1,7.3,6.3,5.1
+95,FLUSHING,NY,110,Queens County,5.2     ,4.5     ,4.5,5.0,8.4,8.6,8.1,8.3,7.7,6.4
+96,FLUSHING,NY,111,Queens County,5.2     ,4.5     ,4.5,5.0,8.4,8.6,8.1,8.3,7.7,6.4
+97,BROOKLYN,NY,112,Kings County,6.2     ,5.4     ,5.4,6.0,9.9,9.9,9.6,9.8,9.4,7.7
+98,FLUSHING,NY,113,Queens County,5.2     ,4.5     ,4.5,5.0,8.4,8.6,8.1,8.3,7.7,6.4
+99,FLUSHING,NY,114,Queens County,5.2     ,4.5     ,4.5,5.0,8.4,8.6,8.1,8.3,7.7,6.4
+100,GARDEN CITY,NY,115,Nassau County,4.0     ,3.7     ,3.7,4.7,6.9,7.1,6.8,7.0,5.9,4.8
+101,BROOKLYN,NY,116,Kings County,6.2     ,5.4     ,5.4,6.0,9.9,9.9,9.6,9.8,9.4,7.7
+102,MELVILLE,NY,117,Nassau County,4.0     ,3.7     ,3.7,4.7,6.9,7.1,6.8,7.0,5.9,4.8
+103,MELVILLE,NY,118,Nassau County,4.0     ,3.7     ,3.7,4.7,6.9,7.1,6.8,7.0,5.9,4.8
+104,MELVILLE,NY,119,Nassau County,4.0     ,3.7     ,3.7,4.7,6.9,7.1,6.8,7.0,5.9,4.8
+105,ALBANY,NY,120,Albany County,3.9     ,3.8     ,3.9,4.9,6.8,7.0,6.9,7.1,6.1,4.9
+106,ALBANY,NY,121,Albany County,3.9     ,3.8     ,3.9,4.9,6.8,7.0,6.9,7.1,6.1,4.9
+107,ALBANY,NY,122,Albany County,3.9     ,3.8     ,3.9,4.9,6.8,7.0,6.9,7.1,6.1,4.9
+108,ALBANY,NY,123,Albany County,3.9     ,3.8     ,3.9,4.9,6.8,7.0,6.9,7.1,6.1,4.9
+109,NEWBURGH,NY,124,Orange County,4.2     ,4.2     ,4.3,5.4,7.8,8.0,7.7,7.9,6.8,5.5
+110,NEWBURGH,NY,125,Orange County,4.2     ,4.2     ,4.3,5.4,7.8,8.0,7.7,7.9,6.8,5.5
+111,NEWBURGH,NY,126,Orange County,4.2     ,4.2     ,4.3,5.4,7.8,8.0,7.7,7.9,6.8,5.5
+112,NEWBURGH,NY,127,Orange County,4.2     ,4.2     ,4.3,5.4,7.8,8.0,7.7,7.9,6.8,5.5
+113,GLENS FALLS,NY,128,Warren County,4.6     ,4.5     ,4.5,5.6,7.9,9.0,8.9,9.1,8.1,6.5
+114,PLATTSBURGH,NY,129,Clinton County,5.3     ,5.3     ,5.6,6.5,9.3,9.8,9.6,9.5,8.4,6.7
+115,SYRACUSE,NY,130,Onondaga County,4.5     ,4.3     ,4.1,5.2,7.6,8.0,7.7,7.9,6.8,5.6
+116,SYRACUSE,NY,131,Onondaga County,4.5     ,4.3     ,4.1,5.2,7.6,8.0,7.7,7.9,6.8,5.6
+117,SYRACUSE,NY,132,Onondaga County,4.5     ,4.3     ,4.1,5.2,7.6,8.0,7.7,7.9,6.8,5.6
+118,UTICA,NY,133,Oneida County,4.8     ,4.3     ,4.3,5.4,7.4,7.6,8.0,8.2,7.5,6.1
+119,UTICA,NY,134,Oneida County,4.8     ,4.3     ,4.3,5.4,7.4,7.6,8.0,8.2,7.5,6.1
+120,UTICA,NY,135,Oneida County,4.8     ,4.3     ,4.3,5.4,7.4,7.6,8.0,8.2,7.5,6.1
+121,WATERTOWN,NY,136,Jefferson County,6.1     ,5.4     ,5.5,6.8,8.8,9.3,9.8,9.9,9.3,7.6
+122,BINGHAMTON,NY,137,Broome County,4.9     ,4.6     ,4.4,5.6,8.2,8.7,8.6,8.7,7.8,6.6
+123,BINGHAMTON,NY,138,Broome County,4.9     ,4.6     ,4.4,5.6,8.2,8.7,8.6,8.7,7.8,6.6
+124,BINGHAMTON,NY,139,Broome County,4.9     ,4.6     ,4.4,5.6,8.2,8.7,8.6,8.7,7.8,6.6
+125,BUFFALO,NY,140,Erie County,5.2     ,4.9     ,4.7,5.7,8.1,8.3,8.0,8.3,7.4,6.1
+126,BUFFALO,NY,141,Erie County,5.2     ,4.9     ,4.7,5.7,8.1,8.3,8.0,8.3,7.4,6.1
+127,BUFFALO,NY,142,Erie County,5.2     ,4.9     ,4.7,5.7,8.1,8.3,8.0,8.3,7.4,6.1
+128,BUFFALO,NY,143,Erie County,5.2     ,4.9     ,4.7,5.7,8.1,8.3,8.0,8.3,7.4,6.1
+129,ROCHESTER,NY,144,Monroe County,4.5     ,4.3     ,4.4,5.5,7.8,8.0,7.7,7.9,6.9,5.8
+130,ROCHESTER,NY,145,Monroe County,4.5     ,4.3     ,4.4,5.5,7.8,8.0,7.7,7.9,6.9,5.8
+131,ROCHESTER,NY,146,Monroe County,4.5     ,4.3     ,4.4,5.5,7.8,8.0,7.7,7.9,6.9,5.8
+132,JAMESTOWN,NY,147,Chautauqua County,4.8     ,4.5     ,4.5,5.5,8.3,8.9,8.2,8.5,8.0,6.8
+133,ELMIRA,NY,148,Chemung County,5.3     ,4.8     ,4.6,5.6,8.9,8.4,7.8,8.4,7.9,6.3
+134,ELMIRA,NY,149,Chemung County,5.3     ,4.8     ,4.6,5.6,8.9,8.4,7.8,8.4,7.9,6.3
+135,PITTSBURGH,PA,150,Allegheny County,5.0     ,4.5     ,4.1,4.8,6.8,7.6,7.1,7.0,6.6,5.3
+136,PITTSBURGH,PA,151,Allegheny County,5.0     ,4.5     ,4.1,4.8,6.8,7.6,7.1,7.0,6.6,5.3
+137,PITTSBURGH,PA,152,Allegheny County,5.0     ,4.5     ,4.1,4.8,6.8,7.6,7.1,7.0,6.6,5.3
+138,PITTSBURGH,PA,153,Allegheny County,5.0     ,4.5     ,4.1,4.8,6.8,7.6,7.1,7.0,6.6,5.3
+139,PITTSBURGH,PA,154,Allegheny County,5.0     ,4.5     ,4.1,4.8,6.8,7.6,7.1,7.0,6.6,5.3
+140,DU BOIS,PA,155,Clearfield County,5.8     ,5.4     ,5.5,6.7,10.0,10.4,9.3,9.3,9.0,7.1
+141,YOUNGWOOD,PA,156,Westmoreland County,5.3     ,5.0     ,4.6,5.3,7.8,8.2,7.5,7.4,7.0,5.7
+142,DU BOIS,PA,157,Clearfield County,5.8     ,5.4     ,5.5,6.7,10.0,10.4,9.3,9.3,9.0,7.1
+143,DU BOIS,PA,158,Clearfield County,5.8     ,5.4     ,5.5,6.7,10.0,10.4,9.3,9.3,9.0,7.1
+144,DU BOIS,PA,159,Clearfield County,5.8     ,5.4     ,5.5,6.7,10.0,10.4,9.3,9.3,9.0,7.1
+145,NEW CASTLE,PA,160,Lawrence County,5.9     ,5.4     ,5.2,6.2,9.3,9.2,8.4,7.9,7.6,6.2
+146,NEW CASTLE,PA,161,Lawrence County,5.9     ,5.4     ,5.2,6.2,9.3,9.2,8.4,7.9,7.6,6.2
+147,NEW CASTLE,PA,162,Lawrence County,5.9     ,5.4     ,5.2,6.2,9.3,9.2,8.4,7.9,7.6,6.2
+148,OIL CITY,PA,163,Venango County,5.4     ,5.2     ,4.9,5.7,8.7,8.5,7.4,7.7,7.8,5.9
+149,OIL CITY,PA,164,Venango County,5.4     ,5.2     ,4.9,5.7,8.7,8.5,7.4,7.7,7.8,5.9
+150,OIL CITY,PA,165,Venango County,5.4     ,5.2     ,4.9,5.7,8.7,8.5,7.4,7.7,7.8,5.9
+151,DUNCANSVILLE,PA,166,Blair County,5.2     ,4.5     ,4.2,5.2,7.1,8.0,7.3,7.4,7.0,5.6
+152,OIL CITY,PA,167,Venango County,5.4     ,5.2     ,4.9,5.7,8.7,8.5,7.4,7.7,7.8,5.9
+153,DUNCANSVILLE,PA,168,Blair County,5.2     ,4.5     ,4.2,5.2,7.1,8.0,7.3,7.4,7.0,5.6
+154,WILLIAMSPORT,PA,169,Lycoming County,5.4     ,5.2     ,4.9,5.9,8.8,8.9,7.7,7.9,7.9,6.1
+155,HARRISBURG,PA,170,Dauphin County,4.3     ,4.0     ,3.9,4.7,7.5,8.0,7.6,7.4,6.9,5.3
+156,HARRISBURG,PA,171,Dauphin County,4.3     ,4.0     ,3.9,4.7,7.5,8.0,7.6,7.4,6.9,5.3
+157,HARRISBURG,PA,172,Dauphin County,4.3     ,4.0     ,3.9,4.7,7.5,8.0,7.6,7.4,6.9,5.3
+158,LANCASTER,PA,173,Lancaster County,3.7     ,3.5     ,3.4,4.3,7.2,7.5,6.9,6.5,6.1,4.6
+159,LANCASTER,PA,174,Lancaster County,3.7     ,3.5     ,3.4,4.3,7.2,7.5,6.9,6.5,6.1,4.6
+160,LANCASTER,PA,175,Lancaster County,3.7     ,3.5     ,3.4,4.3,7.2,7.5,6.9,6.5,6.1,4.6
+161,LANCASTER,PA,176,Lancaster County,3.7     ,3.5     ,3.4,4.3,7.2,7.5,6.9,6.5,6.1,4.6
+162,WILLIAMSPORT,PA,177,Lycoming County,5.4     ,5.2     ,4.9,5.9,8.8,8.9,7.7,7.9,7.9,6.1
+163,HARRISBURG,PA,178,Dauphin County,4.3     ,4.0     ,3.9,4.7,7.5,8.0,7.6,7.4,6.9,5.3
+164,READING,PA,179,Berks County,4.9     ,4.4     ,4.2,5.3,8.7,8.7,7.9,7.7,7.2,5.5
+165,LEHIGH VALLEY,PA,180,Lehigh County,4.9     ,4.6     ,4.4,5.6,8.7,9.2,8.7,8.5,7.9,6.0
+166,LEHIGH VALLEY,PA,181,Lehigh County,4.9     ,4.6     ,4.4,5.6,8.7,9.2,8.7,8.5,7.9,6.0
+167,WILKES BARRE,PA,182,Luzerne County,5.8     ,5.4     ,5.0,6.2,9.0,10.0,9.6,9.8,9.4,7.3
+168,LEHIGH VALLEY,PA,183,Lehigh County,4.9     ,4.6     ,4.4,5.6,8.7,9.2,8.7,8.5,7.9,6.0
+169,SCRANTON,PA,184,Lackawanna County,5.3     ,4.9     ,4.8,5.8,8.2,9.0,8.9,8.9,8.4,6.6
+170,SCRANTON,PA,185,Lackawanna County,5.3     ,4.9     ,4.8,5.8,8.2,9.0,8.9,8.9,8.4,6.6
+171,WILKES BARRE,PA,186,Luzerne County,5.8     ,5.4     ,5.0,6.2,9.0,10.0,9.6,9.8,9.4,7.3
+172,WILKES BARRE,PA,187,Luzerne County,5.8     ,5.4     ,5.0,6.2,9.0,10.0,9.6,9.8,9.4,7.3
+173,SCRANTON,PA,188,Lackawanna County,5.3     ,4.9     ,4.8,5.8,8.2,9.0,8.9,8.9,8.4,6.6
+174,SOUTHEASTERN,PA,189,Montgomery County,3.9     ,3.6     ,3.5,4.3,6.8,6.9,6.5,6.4,5.9,4.6
+175,PHILADELPHIA,PA,190,Philadelphia County,6.7     ,6.2     ,6.1,7.1,9.7,10.6,10.7,10.9,10.4,8.0
+176,PHILADELPHIA,PA,191,Philadelphia County,6.7     ,6.2     ,6.1,7.1,9.7,10.6,10.7,10.9,10.4,8.0
+177,PHILADELPHIA,PA,192,Philadelphia County,6.7     ,6.2     ,6.1,7.1,9.7,10.6,10.7,10.9,10.4,8.0
+178,SOUTHEASTERN,PA,193,Montgomery County,3.9     ,3.6     ,3.5,4.3,6.8,6.9,6.5,6.4,5.9,4.6
+179,SOUTHEASTERN,PA,194,Montgomery County,3.9     ,3.6     ,3.5,4.3,6.8,6.9,6.5,6.4,5.9,4.6
+180,READING,PA,195,Berks County,4.9     ,4.4     ,4.2,5.3,8.7,8.7,7.9,7.7,7.2,5.5
+181,READING,PA,196,Berks County,4.9     ,4.4     ,4.2,5.3,8.7,8.7,7.9,7.7,7.2,5.5
+182,WILMINGTON,DE,197,New Castle County,4.4     ,3.8     ,3.5,4.9,8.3,8.3,7.3,7.0,6.5,5.5
+183,WILMINGTON,DE,198,New Castle County,4.4     ,3.8     ,3.5,4.9,8.3,8.3,7.3,7.0,6.5,5.5
+184,WILMINGTON,DE,199,New Castle County,4.4     ,3.8     ,3.5,4.9,8.3,8.3,7.3,7.0,6.5,5.5
+185,WASHINGTON,DC,200,Washington County,6.4     ,5.8     ,5.5,6.5,9.3,9.4,10.2,9.0,8.5,7.8
+186,DULLES,VA,201,Loudoun County,2.4     ,2.2     ,2.1,2.8,4.7,5.1,4.7,4.4,4.4,4.2
+187,WASHINGTON,DC,202,Washington County,6.4     ,5.8     ,5.5,6.5,9.3,9.4,10.2,9.0,8.5,7.8
+188,WASHINGTON,DC,203,Washington County,6.4     ,5.8     ,5.5,6.5,9.3,9.4,10.2,9.0,8.5,7.8
+189,WASHINGTON,DC,204,Washington County,6.4     ,5.8     ,5.5,6.5,9.3,9.4,10.2,9.0,8.5,7.8
+190,WASHINGTON,DC,205,Washington County,6.4     ,5.8     ,5.5,6.5,9.3,9.4,10.2,9.0,8.5,7.8
+191,CAPITOL HEIGHTS,MD,206,Prince George's County,4.5     ,4.2     ,3.6,4.3,6.9,7.5,7.3,7.1,6.7,5.9
+192,CAPITOL HEIGHTS,MD,207,Prince George's County,4.5     ,4.2     ,3.6,4.3,6.9,7.5,7.3,7.1,6.7,5.9
+193,GAITHERSBURG,MD,208,Montgomery County,3.1     ,2.9     ,2.6,3.2,5.3,5.6,5.2,5.2,5.0,4.4
+194,GAITHERSBURG,MD,209,Montgomery County,3.1     ,2.9     ,2.6,3.2,5.3,5.6,5.2,5.2,5.0,4.4
+195,LINTHICUM HEIGHTS,MD,210,Anne Arundel County,3.5     ,3.3     ,3.0,3.7,6.4,6.9,6.3,6.1,5.8,5.2
+196,LINTHICUM HEIGHTS,MD,211,Anne Arundel County,3.5     ,3.3     ,3.0,3.7,6.4,6.9,6.3,6.1,5.8,5.2
+197,BALTIMORE,MD,212,Baltimore County,4.3     ,3.9     ,3.5,4.4,7.4,8.3,7.7,7.4,7.0,6.2
+198,LINTHICUM HEIGHTS,MD,214,Anne Arundel County,3.5     ,3.3     ,3.0,3.7,6.4,6.9,6.3,6.1,5.8,5.2
+199,CUMBERLAND,MD,215,Allegany County,6.1     ,5.6     ,5.1,5.7,8.5,9.3,8.8,8.6,8.2,7.3
+200,EASTON,MD,216,Talbot County,3.9     ,3.6     ,3.4,4.2,7.2,8.0,7.5,7.3,6.6,5.6
+201,FREDERICK,MD,217,Frederick County,3.1     ,3.1     ,2.9,3.6,6.3,6.9,6.5,6.1,5.8,5.1
+202,EASTON,MD,218,Talbot County,3.9     ,3.6     ,3.4,4.2,7.2,8.0,7.5,7.3,6.6,5.6
+203,BALTIMORE,MD,219,Baltimore County,4.3     ,3.9     ,3.5,4.4,7.4,8.3,7.7,7.4,7.0,6.2
+204,MERRIFIELD,VA,220,Fairfax County,2.6     ,2.2     ,2.2,2.8,4.8,5.1,4.8,4.5,4.4,4.1
+205,MERRIFIELD,VA,221,Fairfax County,2.6     ,2.2     ,2.2,2.8,4.8,5.1,4.8,4.5,4.4,4.1
+206,MERRIFIELD,VA,222,Fairfax County,2.6     ,2.2     ,2.2,2.8,4.8,5.1,4.8,4.5,4.4,4.1
+207,MERRIFIELD,VA,223,Fairfax County,2.6     ,2.2     ,2.2,2.8,4.8,5.1,4.8,4.5,4.4,4.1
+208,SANDSTON,VA,224,Henrico County,3.4     ,2.9     ,2.8,3.6,6.9,7.3,6.7,6.0,5.6,5.1
+209,SANDSTON,VA,225,Henrico County,3.4     ,2.9     ,2.8,3.6,6.9,7.3,6.7,6.0,5.6,5.1
+210,WINCHESTER,VA,226,Frederick County,2.8     ,2.7     ,3.0,4.2,7.5,7.5,6.5,5.8,5.3,4.7
+211,CULPEPER,VA,227,Culpeper County,3.3     ,3.3     ,3.6,4.8,7.9,7.2,6.4,5.7,5.4,5.0
+212,CHARLOTTESVILLE,VA,228,Albemarle County,2.9     ,2.5     ,2.2,3.0,5.1,6.0,5.6,5.2,4.8,4.4
+213,CHARLOTTESVILLE,VA,229,Albemarle County,2.9     ,2.5     ,2.2,3.0,5.1,6.0,5.6,5.2,4.8,4.4
+214,SANDSTON,VA,230,Henrico County,3.4     ,2.9     ,2.8,3.6,6.9,7.3,6.7,6.0,5.6,5.1
+215,SANDSTON,VA,231,Henrico County,3.4     ,2.9     ,2.8,3.6,6.9,7.3,6.7,6.0,5.6,5.1
+216,SANDSTON,VA,232,Henrico County,3.4     ,2.9     ,2.8,3.6,6.9,7.3,6.7,6.0,5.6,5.1
+217,NORFOLK,VA,233,Norfolk city,5.1     ,4.3     ,4.1,5.3,8.5,8.8,8.4,7.6,6.9,6.4
+218,NORFOLK,VA,234,Norfolk city,5.1     ,4.3     ,4.1,5.3,8.5,8.8,8.4,7.6,6.9,6.4
+219,NORFOLK,VA,235,Norfolk city,5.1     ,4.3     ,4.1,5.3,8.5,8.8,8.4,7.6,6.9,6.4
+220,NORFOLK,VA,236,Norfolk city,5.1     ,4.3     ,4.1,5.3,8.5,8.8,8.4,7.6,6.9,6.4
+221,NORFOLK,VA,237,Norfolk city,5.1     ,4.3     ,4.1,5.3,8.5,8.8,8.4,7.6,6.9,6.4
+222,SANDSTON,VA,238,Henrico County,3.4     ,2.9     ,2.8,3.6,6.9,7.3,6.7,6.0,5.6,5.1
+223,FARMVILLE,VA,239,Prince Edward County,5.8     ,4.8     ,4.6,5.5,8.9,9.7,9.0,8.5,8.4,7.8
+224,ROANOKE,VA,240,Roanoke County,3.0     ,2.6     ,2.5,3.2,5.9,6.3,5.7,5.2,5.0,4.5
+225,ROANOKE,VA,241,Roanoke County,3.0     ,2.6     ,2.5,3.2,5.9,6.3,5.7,5.2,5.0,4.5
+226,BRISTOL,VA,242,Washington County,4.5     ,4.2     ,4.5,4.9,8.5,7.9,7.1,6.8,6.4,5.7
+227,ROANOKE,VA,243,Roanoke County,3.0     ,2.6     ,2.5,3.2,5.9,6.3,5.7,5.2,5.0,4.5
+228,CHARLOTTESVILLE,VA,244,Albemarle County,2.9     ,2.5     ,2.2,3.0,5.1,6.0,5.6,5.2,4.8,4.4
+229,LYNCHBURG,VA,245,Campbell County,4.0     ,3.3     ,3.4,4.0,7.2,7.7,7.2,6.5,5.9,5.3
+230,BLUEFIELD,WV,246,Mercer County,5.1     ,4.9     ,4.2,4.0,6.5,8.5,8.6,8.4,7.6,7.5
+231,BLUEFIELD,WV,247,Mercer County,5.1     ,4.9     ,4.2,4.0,6.5,8.5,8.6,8.4,7.6,7.5
+232,BLUEFIELD,WV,248,Mercer County,5.1     ,4.9     ,4.2,4.0,6.5,8.5,8.6,8.4,7.6,7.5
+233,LEWISBURG,WV,249,Greenbrier County,6.1     ,6.2     ,6.1,5.5,9.3,8.7,8.4,8.0,7.4,6.8
+234,CHARLESTON,WV,250,Kanawha County,4.9     ,4.4     ,4.0,3.5,6.2,7.4,7.1,6.6,5.9,5.9
+235,CHARLESTON,WV,251,Kanawha County,4.9     ,4.4     ,4.0,3.5,6.2,7.4,7.1,6.6,5.9,5.9
+236,CHARLESTON,WV,252,Kanawha County,4.9     ,4.4     ,4.0,3.5,6.2,7.4,7.1,6.6,5.9,5.9
+237,CHARLESTON,WV,253,Kanawha County,4.9     ,4.4     ,4.0,3.5,6.2,7.4,7.1,6.6,5.9,5.9
+238,MARTINSBURG,WV,254,Berkeley County,4.0     ,4.2     ,4.1,4.7,8.5,8.6,7.8,6.7,5.5,5.3
+239,HUNTINGTON,WV,255,Cabell County,4.5     ,4.6     ,4.1,3.9,6.7,7.2,7.2,6.5,5.8,5.5
+240,HUNTINGTON,WV,256,Cabell County,4.5     ,4.6     ,4.1,3.9,6.7,7.2,7.2,6.5,5.8,5.5
+241,HUNTINGTON,WV,257,Cabell County,4.5     ,4.6     ,4.1,3.9,6.7,7.2,7.2,6.5,5.8,5.5
+242,BECKLEY,WV,258,Raleigh County,4.7     ,4.5     ,4.4,4.0,7.2,8.1,7.2,7.3,7.3,7.1
+243,BECKLEY,WV,259,Raleigh County,4.7     ,4.5     ,4.4,4.0,7.2,8.1,7.2,7.3,7.3,7.1
+244,WHEELING,WV,260,Ohio County,4.9     ,4.8     ,4.2,4.2,7.6,7.9,7.4,6.4,5.7,5.5
+245,PARKERSBURG,WV,261,Wood County,5.5     ,4.9     ,4.7,4.7,8.5,8.9,8.3,7.3,6.2,5.9
+246,CLARKSBURG,WV,262,Harrison County,4.7     ,4.7     ,4.3,3.9,6.5,7.6,7.1,6.5,5.5,5.3
+247,CLARKSBURG,WV,263,Harrison County,4.7     ,4.7     ,4.3,3.9,6.5,7.6,7.1,6.5,5.5,5.3
+248,CLARKSBURG,WV,264,Harrison County,4.7     ,4.7     ,4.3,3.9,6.5,7.6,7.1,6.5,5.5,5.3
+249,CLARKSBURG,WV,265,Harrison County,4.7     ,4.7     ,4.3,3.9,6.5,7.6,7.1,6.5,5.5,5.3
+250,GASSAWAY,WV,266,Braxton County,6.0     ,5.5     ,5.5,5.2,8.2,11.1,11.1,10.7,10.1,9.2
+251,CUMBERLAND,MD,267,Allegany County,6.1     ,5.6     ,5.1,5.7,8.5,9.3,8.8,8.6,8.2,7.3
+252,PETERSBURG,WV,268,Grant County,6.3     ,6.0     ,5.2,5.3,9.9,9.8,9.1,9.0,8.2,7.5
+253,GREENSBORO,NC,270,Guilford County,5.1     ,4.6     ,4.7,6.0,10.6,11.1,10.4,9.5,8.2,6.4
+254,GREENSBORO,NC,271,Guilford County,5.1     ,4.6     ,4.7,6.0,10.6,11.1,10.4,9.5,8.2,6.4
+255,GREENSBORO,NC,272,Guilford County,5.1     ,4.6     ,4.7,6.0,10.6,11.1,10.4,9.5,8.2,6.4
+256,GREENSBORO,NC,273,Guilford County,5.1     ,4.6     ,4.7,6.0,10.6,11.1,10.4,9.5,8.2,6.4
+257,GREENSBORO,NC,274,Guilford County,5.1     ,4.6     ,4.7,6.0,10.6,11.1,10.4,9.5,8.2,6.4
+258,RALEIGH,NC,275,Wake County,4.1     ,3.6     ,3.5,4.6,8.3,8.3,7.9,7.1,6.0,4.8
+259,RALEIGH,NC,276,Wake County,4.1     ,3.6     ,3.5,4.6,8.3,8.3,7.9,7.1,6.0,4.8
+260,RALEIGH,NC,277,Wake County,4.1     ,3.6     ,3.5,4.6,8.3,8.3,7.9,7.1,6.0,4.8
+261,ROCKY MOUNT,NC,278,Nash County,6.0     ,5.5     ,5.3,7.4,12.0,12.6,12.5,11.5,10.3,7.9
+262,ROCKY MOUNT,NC,279,Nash County,6.0     ,5.5     ,5.3,7.4,12.0,12.6,12.5,11.5,10.3,7.9
+263,CHARLOTTE,NC,280,Mecklenburg County,5.0     ,4.5     ,4.5,5.9,10.6,10.7,9.9,8.7,7.5,5.9
+264,CHARLOTTE,NC,281,Mecklenburg County,5.0     ,4.5     ,4.5,5.9,10.6,10.7,9.9,8.7,7.5,5.9
+265,CHARLOTTE,NC,282,Mecklenburg County,5.0     ,4.5     ,4.5,5.9,10.6,10.7,9.9,8.7,7.5,5.9
+266,FAYETTEVILLE,NC,283,Cumberland County,5.4     ,5.4     ,5.3,6.1,8.9,10.1,10.5,10.4,9.5,7.8
+267,FAYETTEVILLE,NC,284,Cumberland County,5.4     ,5.4     ,5.3,6.1,8.9,10.1,10.5,10.4,9.5,7.8
+268,KINSTON,NC,285,Lenoir County,5.8     ,5.6     ,5.3,7.2,11.8,11.9,10.8,9.7,8.6,7.0
+269,HICKORY,NC,286,Catawba County,6.2     ,5.3     ,5.5,7.1,14.0,13.1,11.6,10.1,8.5,6.3
+270,ASHEVILLE,NC,287,Buncombe County,4.4     ,3.7     ,3.5,4.7,8.3,8.5,7.9,7.2,5.9,4.6
+271,ASHEVILLE,NC,288,Buncombe County,4.4     ,3.7     ,3.5,4.7,8.3,8.5,7.9,7.2,5.9,4.6
+272,ASHEVILLE,NC,289,Buncombe County,4.4     ,3.7     ,3.5,4.7,8.3,8.5,7.9,7.2,5.9,4.6
+273,WEST COLUMBIA,SC,290,Lexington County,4.9     ,4.7     ,4.1,4.9,8.0,8.2,8.0,7.0,5.8,5.1
+274,WEST COLUMBIA,SC,291,Lexington County,4.9     ,4.7     ,4.1,4.9,8.0,8.2,8.0,7.0,5.8,5.1
+275,WEST COLUMBIA,SC,292,Lexington County,4.9     ,4.7     ,4.1,4.9,8.0,8.2,8.0,7.0,5.8,5.1
+276,GREENVILLE,SC,293,Greenville County,5.5     ,5.4     ,4.7,5.5,9.8,9.6,8.6,7.4,6.1,5.3
+277,NORTH CHARLESTON,SC,294,Charleston County,5.4     ,5.0     ,4.4,5.3,8.8,8.8,8.3,7.2,5.9,5.1
+278,FLORENCE,SC,295,Florence County,8.9     ,7.3     ,6.1,7.0,11.1,11.3,11.2,9.6,8.3,7.3
+279,GREENVILLE,SC,296,Greenville County,5.5     ,5.4     ,4.7,5.5,9.8,9.6,8.6,7.4,6.1,5.3
+280,CHARLOTTE,NC,297,Mecklenburg County,5.0     ,4.5     ,4.5,5.9,10.6,10.7,9.9,8.7,7.5,5.9
+281,AUGUSTA,GA,298,Richmond County,6.8     ,6.3     ,6.1,7.2,10.1,11.0,11.3,10.6,9.8,8.7
+282,SAVANNAH,GA,299,Chatham County,4.6     ,4.1     ,4.0,5.6,8.6,9.9,10.0,9.1,8.1,7.3
+283,DULUTH,GA,300,Gwinnett County,4.7     ,4.2     ,4.0,5.6,9.0,9.2,8.7,7.8,6.9,6.1
+284,DULUTH,GA,301,Gwinnett County,4.7     ,4.2     ,4.0,5.6,9.0,9.2,8.7,7.8,6.9,6.1
+285,ATLANTA,GA,302,Fulton County,5.8     ,5.0     ,4.8,6.4,10.1,10.5,10.2,9.1,8.2,7.2
+286,ATLANTA,GA,303,Fulton County,5.8     ,5.0     ,4.8,6.4,10.1,10.5,10.2,9.1,8.2,7.2
+287,SWAINSBORO,GA,304,Emanuel County,5.6     ,5.1     ,5.2,7.4,10.7,12.9,13.3,12.3,12.6,10.7
+288,ATHENS,GA,305,Clarke County,4.5     ,4.3     ,3.9,5.1,7.6,9.3,9.3,8.6,7.7,6.9
+289,ATHENS,GA,306,Clarke County,4.5     ,4.3     ,3.9,5.1,7.6,9.3,9.3,8.6,7.7,6.9
+290,CHATTANOOGA,TN,307,Hamilton County,4.7     ,4.4     ,3.9,5.7,9.0,8.3,7.7,6.9,7.2,6.3
+291,AUGUSTA,GA,308,Richmond County,6.8     ,6.3     ,6.1,7.2,10.1,11.0,11.3,10.6,9.8,8.7
+292,AUGUSTA,GA,309,Richmond County,6.8     ,6.3     ,6.1,7.2,10.1,11.0,11.3,10.6,9.8,8.7
+293,MACON,GA,310,Bibb County,5.8     ,5.7     ,5.2,6.5,9.7,11.6,11.5,10.5,9.2,8.1
+294,ATLANTA,GA,311,Fulton County,5.8     ,5.0     ,4.8,6.4,10.1,10.5,10.2,9.1,8.2,7.2
+295,MACON,GA,312,Bibb County,5.8     ,5.7     ,5.2,6.5,9.7,11.6,11.5,10.5,9.2,8.1
+296,SAVANNAH,GA,313,Chatham County,4.6     ,4.1     ,4.0,5.6,8.6,9.9,10.0,9.1,8.1,7.3
+297,SAVANNAH,GA,314,Chatham County,4.6     ,4.1     ,4.0,5.6,8.6,9.9,10.0,9.1,8.1,7.3
+298,WAYCROSS,GA,315,Ware County,5.6     ,5.0     ,4.9,6.6,10.9,11.0,11.3,10.2,9.4,8.1
+299,VALDOSTA,GA,316,Lowndes County,4.0     ,3.9     ,3.8,5.4,8.5,9.6,9.9,9.1,8.0,7.3
+300,ALBANY,GA,317,Dougherty County,6.3     ,6.0     ,5.6,7.0,10.5,12.6,12.2,11.2,10.4,9.4
+301,COLUMBUS,GA,318,Muscogee County,6.2     ,5.5     ,5.2,6.2,9.1,10.1,10.0,9.7,9.3,8.5
+302,COLUMBUS,GA,319,Muscogee County,6.2     ,5.5     ,5.2,6.2,9.1,10.1,10.0,9.7,9.3,8.5
+303,JACKSONVILLE,FL,320,Duval County,4.0     ,3.5     ,4.2,6.4,10.5,11.4,10.3,8.8,7.6,6.7
+304,DAYTONA BEACH,FL,321,Volusia County,3.7     ,3.3     ,4.2,6.8,10.8,12.3,11.2,9.4,8.1,6.7
+305,JACKSONVILLE,FL,322,Duval County,4.0     ,3.5     ,4.2,6.4,10.5,11.4,10.3,8.8,7.6,6.7
+306,TALLAHASSEE,FL,323,Leon County,3.2     ,2.7     ,3.1,4.7,7.1,7.9,7.8,7.0,6.1,5.5
+307,PANAMA CITY,FL,324,Bay County,3.6     ,3.1     ,3.7,5.7,9.1,10.5,10.2,8.6,7.3,6.3
+308,PENSACOLA,FL,325,Escambia County,3.9     ,3.2     ,4.0,6.2,9.9,10.1,9.7,8.5,7.3,6.3
+309,GAINESVILLE,FL,326,Alachua County,2.9     ,2.7     ,3.0,4.4,7.1,8.0,7.6,6.6,5.7,5.2
+310,MID FLORIDA,FL,327,Seminole County,3.4     ,2.9     ,3.7,5.8,9.8,10.6,9.6,8.1,6.7,5.6
+311,ORLANDO,FL,328,Orange County,3.6     ,3.1     ,3.8,6.0,10.4,10.8,9.8,8.3,6.9,5.8
+312,ORLANDO,FL,329,Orange County,3.6     ,3.1     ,3.8,6.0,10.4,10.8,9.8,8.3,6.9,5.8
+313,PEMBROKE PINES,FL,330,Broward County,3.7     ,3.1     ,3.6,5.6,9.1,10.2,9.4,7.9,6.7,5.8
+314,MIAMI,FL,331,Miami-Dade County,3.2     ,2.8     ,3.1,4.8,10.4,11.1,9.4,8.3,7.6,6.8
+315,MIAMI,FL,332,Miami-Dade County,3.2     ,2.8     ,3.1,4.8,10.4,11.1,9.4,8.3,7.6,6.8
+316,FORT LAUDERDALE,FL,333,Broward County,3.7     ,3.1     ,3.6,5.6,9.1,10.2,9.4,7.9,6.7,5.8
+317,WEST PALM BEACH,FL,334,Palm Beach County,4.3     ,3.7     ,4.4,6.8,10.7,11.0,10.1,8.6,7.3,5.9
+318,TAMPA,FL,335,Hillsborough County,3.8     ,3.3     ,4.2,6.5,10.6,10.7,9.6,8.0,6.7,5.8
+319,TAMPA,FL,336,Hillsborough County,3.8     ,3.3     ,4.2,6.5,10.6,10.7,9.6,8.0,6.7,5.8
+320,SAINT PETERSBURG,FL,337,Pinellas County,3.9     ,3.4     ,4.2,6.6,10.8,10.8,9.7,8.0,6.8,5.8
+321,LAKELAND,FL,338,Polk County,4.1     ,3.7     ,4.6,6.9,11.3,12.1,11.3,9.7,8.3,7.1
+322,FORT MYERS,FL,339,Lee County,3.2     ,2.9     ,4.7,8.3,12.3,12.5,10.9,8.9,7.3,6.0
+323,FORT MYERS,FL,341,Lee County,3.2     ,2.9     ,4.7,8.3,12.3,12.5,10.9,8.9,7.3,6.0
+324,SARASOTA,FL,342,Sarasota County,3.4     ,3.1     ,4.6,7.4,11.3,11.6,10.3,8.5,7.1,5.8
+325,GAINESVILLE,FL,344,Alachua County,2.9     ,2.7     ,3.0,4.4,7.1,8.0,7.6,6.6,5.7,5.2
+326,TAMPA,FL,346,Hillsborough County,3.8     ,3.3     ,4.2,6.5,10.6,10.7,9.6,8.0,6.7,5.8
+327,ORLANDO,FL,347,Orange County,3.6     ,3.1     ,3.8,6.0,10.4,10.8,9.8,8.3,6.9,5.8
+328,WEST PALM BEACH,FL,349,Palm Beach County,4.3     ,3.7     ,4.4,6.8,10.7,11.0,10.1,8.6,7.3,5.9
+329,BIRMINGHAM,AL,350,Jefferson County,4.4     ,4.0     ,3.9,5.4,10.8,10.3,9.3,7.4,6.7,6.3
+330,BIRMINGHAM,AL,351,Jefferson County,4.4     ,4.0     ,3.9,5.4,10.8,10.3,9.3,7.4,6.7,6.3
+331,BIRMINGHAM,AL,352,Jefferson County,4.4     ,4.0     ,3.9,5.4,10.8,10.3,9.3,7.4,6.7,6.3
+332,TUSCALOOSA,AL,354,Tuscaloosa County,3.7     ,3.3     ,3.3,4.7,10.2,9.2,8.4,7.0,6.4,6.0
+333,BIRMINGHAM,AL,355,Jefferson County,4.4     ,4.0     ,3.9,5.4,10.8,10.3,9.3,7.4,6.7,6.3
+334,HUNTSVILLE,AL,356,Madison County,3.6     ,3.3     ,3.1,4.2,8.0,8.3,8.3,7.0,6.4,6.2
+335,HUNTSVILLE,AL,357,Madison County,3.6     ,3.3     ,3.1,4.2,8.0,8.3,8.3,7.0,6.4,6.2
+336,HUNTSVILLE,AL,358,Madison County,3.6     ,3.3     ,3.1,4.2,8.0,8.3,8.3,7.0,6.4,6.2
+337,BIRMINGHAM,AL,359,Jefferson County,4.4     ,4.0     ,3.9,5.4,10.8,10.3,9.3,7.4,6.7,6.3
+338,MONTGOMERY,AL,360,Montgomery County,4.6     ,4.2     ,4.1,5.9,10.5,10.0,9.7,8.0,7.3,6.9
+339,MONTGOMERY,AL,361,Montgomery County,4.6     ,4.2     ,4.1,5.9,10.5,10.0,9.7,8.0,7.3,6.9
+340,ANNISTON,AL,362,Calhoun County,4.5     ,4.1     ,3.9,5.7,11.1,11.4,10.4,8.8,8.6,7.9
+341,DOTHAN,AL,363,Houston County,3.8     ,3.4     ,3.3,4.9,9.3,9.1,8.7,7.6,7.0,6.8
+342,EVERGREEN,AL,364,Conecuh County,6.2     ,5.7     ,6.4,9.4,19.9,17.2,15.4,12.1,10.9,10.7
+343,MOBILE,AL,365,Mobile County,5.0     ,4.2     ,4.0,5.7,11.3,11.3,10.8,9.1,8.4,7.7
+344,MOBILE,AL,366,Mobile County,5.0     ,4.2     ,4.0,5.7,11.3,11.3,10.8,9.1,8.4,7.7
+345,MONTGOMERY,AL,367,Montgomery County,4.6     ,4.2     ,4.1,5.9,10.5,10.0,9.7,8.0,7.3,6.9
+346,MONTGOMERY,AL,368,Montgomery County,4.6     ,4.2     ,4.1,5.9,10.5,10.0,9.7,8.0,7.3,6.9
+347,MERIDIAN,MS,369,Lauderdale County,7.0     ,6.2     ,6.3,6.7,9.5,10.7,10.3,9.1,8.5,7.9
+348,NASHVILLE,TN,370,Davidson County,4.5     ,4.2     ,3.8,5.4,8.9,8.2,7.6,6.2,5.9,5.1
+349,NASHVILLE,TN,371,Davidson County,4.5     ,4.2     ,3.8,5.4,8.9,8.2,7.6,6.2,5.9,5.1
+350,NASHVILLE,TN,372,Davidson County,4.5     ,4.2     ,3.8,5.4,8.9,8.2,7.6,6.2,5.9,5.1
+351,CHATTANOOGA,TN,373,Hamilton County,4.7     ,4.4     ,3.9,5.7,9.0,8.3,7.7,6.9,7.2,6.3
+352,CHATTANOOGA,TN,374,Hamilton County,4.7     ,4.4     ,3.9,5.7,9.0,8.3,7.7,6.9,7.2,6.3
+353,MEMPHIS,TN,375,Shelby County,6.2     ,5.7     ,5.1,6.9,10.1,9.8,9.5,8.6,8.9,7.9
+354,JOHNSON CITY,TN,376,Sullivan County,5.2     ,4.5     ,4.0,5.3,8.8,9.0,8.2,7.5,7.5,6.7
+355,KNOXVILLE,TN,377,Knox County,4.2     ,3.9     ,3.4,5.0,8.1,7.4,6.9,6.1,6.3,5.5
+356,KNOXVILLE,TN,378,Knox County,4.2     ,3.9     ,3.4,5.0,8.1,7.4,6.9,6.1,6.3,5.5
+357,KNOXVILLE,TN,379,Knox County,4.2     ,3.9     ,3.4,5.0,8.1,7.4,6.9,6.1,6.3,5.5
+358,MEMPHIS,TN,380,Shelby County,6.2     ,5.7     ,5.1,6.9,10.1,9.8,9.5,8.6,8.9,7.9
+359,MEMPHIS,TN,381,Shelby County,6.2     ,5.7     ,5.1,6.9,10.1,9.8,9.5,8.6,8.9,7.9
+360,MC KENZIE,TN,382,Carroll County,7.6     ,6.3     ,6.3,9.1,16.0,14.6,12.1,10.9,11.8,10.1
+361,JACKSON,TN,383,Madison County,5.6     ,5.4     ,4.9,6.7,10.6,10.0,9.3,8.1,8.1,6.9
+362,COLUMBIA,TN,384,Maury County,6.0     ,5.5     ,7.8,8.1,13.8,12.3,10.3,7.9,7.4,6.1
+363,COOKEVILLE,TN,385,Putnam County,5.0     ,5.7     ,4.5,6.4,9.7,9.4,8.8,7.9,7.9,6.9
+364,MEMPHIS,TN,386,Shelby County,6.2     ,5.7     ,5.1,6.9,10.1,9.8,9.5,8.6,8.9,7.9
+365,GREENVILLE,MS,387,Washington County,11.0     ,9.4     ,8.4,9.4,13.6,15.8,15.6,14.5,14.7,13.4
+366,TUPELO,MS,388,Lee County,6.2     ,5.9     ,6.1,6.9,10.5,10.4,9.7,8.4,8.3,7.7
+367,GRENADA,MS,389,Grenada County,7.3     ,6.3     ,7.2,7.3,12.3,11.6,10.3,9.3,9.0,7.4
+368,JACKSON,MS,390,Hinds County,6.5     ,5.6     ,5.5,5.9,8.2,9.8,9.6,8.8,8.5,7.4
+369,JACKSON,MS,391,Hinds County,6.5     ,5.6     ,5.5,5.9,8.2,9.8,9.6,8.8,8.5,7.4
+370,JACKSON,MS,392,Hinds County,6.5     ,5.6     ,5.5,5.9,8.2,9.8,9.6,8.8,8.5,7.4
+371,MERIDIAN,MS,393,Lauderdale County,7.0     ,6.2     ,6.3,6.7,9.5,10.7,10.3,9.1,8.5,7.9
+372,HATTIESBURG,MS,394,Forrest County,6.2     ,5.1     ,5.0,5.6,7.8,9.8,10.1,9.0,8.5,7.5
+373,GULFPORT,MS,395,Harrison County,10.8     ,10.0     ,5.3,5.4,7.7,8.8,9.0,8.3,7.8,7.0
+374,MCCOMB,MS,396,Pike County,8.7     ,6.5     ,6.6,6.9,10.1,11.6,11.6,10.5,10.0,8.5
+375,COLUMBUS,MS,397,Lowndes County,7.5     ,6.6     ,7.4,7.6,10.6,11.8,10.6,9.2,9.5,9.3
+376,ALBANY,GA,398,Dougherty County,6.3     ,6.0     ,5.6,7.0,10.5,12.6,12.2,11.2,10.4,9.4
+377,ATLANTA,GA,399,Fulton County,5.8     ,5.0     ,4.8,6.4,10.1,10.5,10.2,9.1,8.2,7.2
+378,LOUISVILLE,KY,400,Jefferson County,5.9     ,5.7     ,5.3,6.3,10.1,10.0,9.5,8.0,7.6,6.1
+379,LOUISVILLE,KY,401,Jefferson County,5.9     ,5.7     ,5.3,6.3,10.1,10.0,9.5,8.0,7.6,6.1
+380,LOUISVILLE,KY,402,Jefferson County,5.9     ,5.7     ,5.3,6.3,10.1,10.0,9.5,8.0,7.6,6.1
+381,LEXINGTON,KY,403,Fayette County,4.5     ,4.3     ,4.0,4.8,7.8,7.4,6.8,5.9,5.8,4.8
+382,LEXINGTON,KY,404,Fayette County,4.5     ,4.3     ,4.0,4.8,7.8,7.4,6.8,5.9,5.8,4.8
+383,LEXINGTON,KY,405,Fayette County,4.5     ,4.3     ,4.0,4.8,7.8,7.4,6.8,5.9,5.8,4.8
+384,LEXINGTON,KY,406,Fayette County,4.5     ,4.3     ,4.0,4.8,7.8,7.4,6.8,5.9,5.8,4.8
+385,LONDON,KY,407,Laurel County,5.6     ,5.8     ,5.3,6.6,10.2,11.4,11.4,10.1,9.7,7.6
+386,LONDON,KY,408,Laurel County,5.6     ,5.8     ,5.3,6.6,10.2,11.4,11.4,10.1,9.7,7.6
+387,LONDON,KY,409,Laurel County,5.6     ,5.8     ,5.3,6.6,10.2,11.4,11.4,10.1,9.7,7.6
+388,CINCINNATI,OH,410,Hamilton County,5.6     ,5.1     ,5.1,5.7,9.1,9.9,8.9,7.4,7.3,5.3
+389,ASHLAND,KY,411,Boyd County,5.9     ,5.5     ,5.2,5.9,8.4,10.2,10.1,9.1,9.1,7.4
+390,ASHLAND,KY,412,Boyd County,5.9     ,5.5     ,5.2,5.9,8.4,10.2,10.1,9.1,9.1,7.4
+391,SPUR CAMPTON,KY,413,Wolfe County,10.0     ,9.4     ,9.7,9.8,13.4,16.4,14.8,14.2,14.2,11.3
+392,SPUR CAMPTON,KY,414,Wolfe County,10.0     ,9.4     ,9.7,9.8,13.4,16.4,14.8,14.2,14.2,11.3
+393,PIKEVILLE,KY,415,Pike County,6.2     ,5.9     ,5.9,5.8,9.6,10.4,9.1,9.6,11.8,10.5
+394,PIKEVILLE,KY,416,Pike County,6.2     ,5.9     ,5.9,5.8,9.6,10.4,9.1,9.6,11.8,10.5
+395,HAZARD,KY,417,Perry County,7.1     ,6.9     ,7.0,6.8,10.7,11.7,10.4,12.5,14.0,10.3
+396,HAZARD,KY,418,Perry County,7.1     ,6.9     ,7.0,6.8,10.7,11.7,10.4,12.5,14.0,10.3
+397,PADUCAH,KY,420,McCracken County,5.8     ,5.3     ,4.9,5.8,8.8,9.1,8.5,7.9,7.9,7.1
+398,BOWLING GREEN,KY,421,Warren County,4.9     ,4.8     ,4.3,5.4,9.9,9.2,8.2,6.9,6.9,5.6
+399,BOWLING GREEN,KY,422,Warren County,4.9     ,4.8     ,4.3,5.4,9.9,9.2,8.2,6.9,6.9,5.6
+400,OWENSBORO,KY,423,Daviess County,5.8     ,5.3     ,4.8,5.7,9.3,9.3,8.3,6.9,6.9,5.7
+401,EVANSVILLE,IN,424,Vanderburgh County,5.2     ,4.8     ,4.7,5.2,8.2,8.9,8.0,7.7,7.2,5.5
+402,SOMERSET,KY,425,Pulaski County,6.0     ,6.5     ,5.9,6.7,10.3,10.6,10.6,9.4,9.2,7.4
+403,SOMERSET,KY,426,Pulaski County,6.0     ,6.5     ,5.9,6.7,10.3,10.6,10.6,9.4,9.2,7.4
+404,ELIZABETHTOWN,KY,427,Hardin County,5.8     ,5.4     ,5.1,6.2,10.3,9.7,9.2,8.1,7.6,6.2
+405,COLUMBUS,OH,430,Franklin County,5.4     ,4.7     ,4.7,5.5,8.5,8.9,7.7,6.4,6.4,4.8
+406,COLUMBUS,OH,431,Franklin County,5.4     ,4.7     ,4.7,5.5,8.5,8.9,7.7,6.4,6.4,4.8
+407,COLUMBUS,OH,432,Franklin County,5.4     ,4.7     ,4.7,5.5,8.5,8.9,7.7,6.4,6.4,4.8
+408,COLUMBUS,OH,433,Franklin County,5.4     ,4.7     ,4.7,5.5,8.5,8.9,7.7,6.4,6.4,4.8
+409,TOLEDO,OH,434,Lucas County,7.0     ,6.3     ,6.8,8.2,12.4,11.5,9.9,8.3,8.7,6.3
+410,TOLEDO,OH,435,Lucas County,7.0     ,6.3     ,6.8,8.2,12.4,11.5,9.9,8.3,8.7,6.3
+411,TOLEDO,OH,436,Lucas County,7.0     ,6.3     ,6.8,8.2,12.4,11.5,9.9,8.3,8.7,6.3
+412,ZANESVILLE,OH,437,Muskingum County,8.5     ,7.2     ,7.8,8.7,12.7,12.6,10.9,9.2,9.2,7.0
+413,ZANESVILLE,OH,438,Muskingum County,8.5     ,7.2     ,7.8,8.7,12.7,12.6,10.9,9.2,9.2,7.0
+414,STEUBENVILLE,OH,439,Jefferson County,7.7     ,6.9     ,6.4,7.0,12.3,14.5,12.0,10.8,10.8,8.0
+415,CLEVELAND,OH,440,Cuyahoga County,5.4     ,5.1     ,5.7,6.2,8.7,8.5,7.6,6.8,7.1,6.4
+416,CLEVELAND,OH,441,Cuyahoga County,5.4     ,5.1     ,5.7,6.2,8.7,8.5,7.6,6.8,7.1,6.4
+417,AKRON,OH,442,Summit County,5.9     ,5.3     ,5.4,6.1,10.0,10.6,9.1,7.4,7.6,5.8
+418,AKRON,OH,443,Summit County,5.9     ,5.3     ,5.4,6.1,10.0,10.6,9.1,7.4,7.6,5.8
+419,YOUNGSTOWN,OH,444,Mahoning County,7.1     ,6.4     ,6.2,7.1,12.6,11.7,9.8,8.3,8.5,6.6
+420,YOUNGSTOWN,OH,445,Mahoning County,7.1     ,6.4     ,6.2,7.1,12.6,11.7,9.8,8.3,8.5,6.6
+421,CANTON,OH,446,Stark County,6.6     ,5.8     ,5.8,6.8,11.4,11.3,9.3,7.5,7.6,5.7
+422,CANTON,OH,447,Stark County,6.6     ,5.8     ,5.8,6.8,11.4,11.3,9.3,7.5,7.6,5.7
+423,MANSFIELD,OH,448,Richland County,6.7     ,6.1     ,6.5,7.4,12.9,12.1,10.6,8.7,8.6,6.4
+424,MANSFIELD,OH,449,Richland County,6.7     ,6.1     ,6.5,7.4,12.9,12.1,10.6,8.7,8.6,6.4
+425,CINCINNATI,OH,450,Hamilton County,5.6     ,5.1     ,5.1,5.7,9.1,9.9,8.9,7.4,7.3,5.3
+426,CINCINNATI,OH,451,Hamilton County,5.6     ,5.1     ,5.1,5.7,9.1,9.9,8.9,7.4,7.3,5.3
+427,CINCINNATI,OH,452,Hamilton County,5.6     ,5.1     ,5.1,5.7,9.1,9.9,8.9,7.4,7.3,5.3
+428,DAYTON,OH,453,Montgomery County,6.5     ,6.0     ,6.2,7.5,11.6,11.4,9.7,8.2,8.3,6.0
+429,DAYTON,OH,454,Montgomery County,6.5     ,6.0     ,6.2,7.5,11.6,11.4,9.7,8.2,8.3,6.0
+430,DAYTON,OH,455,Montgomery County,6.5     ,6.0     ,6.2,7.5,11.6,11.4,9.7,8.2,8.3,6.0
+431,CHILLICOTHE,OH,456,Ross County,7.5     ,6.2     ,6.9,7.9,12.2,11.9,10.0,8.4,8.7,6.3
+432,ATHENS,OH,457,Athens County,6.6     ,5.9     ,6.1,6.7,8.8,10.6,9.9,8.5,9.0,6.8
+433,LIMA,OH,458,Allen County,6.2     ,6.1     ,6.3,7.4,11.3,10.7,9.5,7.8,7.9,5.7
+434,CINCINNATI,OH,459,Hamilton County,5.6     ,5.1     ,5.1,5.7,9.1,9.9,8.9,7.4,7.3,5.3
+435,INDIANAPOLIS,IN,460,Marion County,5.6     ,5.0     ,4.5,5.6,9.3,10.6,9.9,9.1,8.4,6.5
+436,INDIANAPOLIS,IN,461,Marion County,5.6     ,5.0     ,4.5,5.6,9.3,10.6,9.9,9.1,8.4,6.5
+437,INDIANAPOLIS,IN,462,Marion County,5.6     ,5.0     ,4.5,5.6,9.3,10.6,9.9,9.1,8.4,6.5
+438,GARY,IN,463,Lake County,6.2     ,5.8     ,5.2,6.2,10.6,10.8,9.6,9.2,9.2,8.1
+439,GARY,IN,464,Lake County,6.2     ,5.8     ,5.2,6.2,10.6,10.8,9.6,9.2,9.2,8.1
+440,SOUTH BEND,IN,465,St. Joseph County,5.3     ,5.2     ,4.9,6.6,11.5,11.6,10.1,9.5,8.8,6.7
+441,SOUTH BEND,IN,466,St. Joseph County,5.3     ,5.2     ,4.9,6.6,11.5,11.6,10.1,9.5,8.8,6.7
+442,FORT WAYNE,IN,467,Allen County,5.3     ,5.0     ,4.8,6.0,10.5,10.7,9.3,8.4,7.5,5.8
+443,FORT WAYNE,IN,468,Allen County,5.3     ,5.0     ,4.8,6.0,10.5,10.7,9.3,8.4,7.5,5.8
+444,KOKOMO,IN,469,Howard County,6.6     ,6.6     ,5.5,7.8,14.8,12.6,10.5,9.1,8.2,6.4
+445,CINCINNATI,OH,470,Hamilton County,5.6     ,5.1     ,5.1,5.7,9.1,9.9,8.9,7.4,7.3,5.3
+446,LOUISVILLE,KY,471,Jefferson County,5.9     ,5.7     ,5.3,6.3,10.1,10.0,9.5,8.0,7.6,6.1
+447,COLUMBUS,IN,472,Bartholomew County,4.8     ,4.2     ,3.6,4.6,9.6,9.5,7.6,6.4,6.0,4.5
+448,MUNCIE,IN,473,Delaware County,6.9     ,6.0     ,5.3,6.7,10.7,11.6,10.2,9.4,8.7,7.1
+449,BLOOMINGTON,IN,474,Monroe County,4.8     ,4.3     ,3.7,4.5,6.5,7.9,7.5,7.2,6.9,5.8
+450,TERRE HAUTE,IN,475,Vigo County,6.8     ,6.4     ,5.3,6.4,10.1,11.2,10.3,10.0,9.5,7.8
+451,EVANSVILLE,IN,476,Vanderburgh County,5.2     ,4.8     ,4.7,5.2,8.2,8.9,8.0,7.7,7.2,5.5
+452,EVANSVILLE,IN,477,Vanderburgh County,5.2     ,4.8     ,4.7,5.2,8.2,8.9,8.0,7.7,7.2,5.5
+453,TERRE HAUTE,IN,478,Vigo County,6.8     ,6.4     ,5.3,6.4,10.1,11.2,10.3,10.0,9.5,7.8
+454,LAFAYETTE,IN,479,Tippecanoe County,4.9     ,4.3     ,3.9,4.7,9.1,8.9,7.5,7.0,6.7,5.1
+455,PONTIAC,MI,480,Oakland County,5.5     ,5.7     ,5.8,6.6,13.0,11.8,9.6,8.3,8.0,6.8
+456,DETROIT,MI,481,Wayne County,8.3     ,8.2     ,8.3,9.3,16.2,15.5,13.0,11.7,11.6,10.0
+457,DETROIT,MI,482,Wayne County,8.3     ,8.2     ,8.3,9.3,16.2,15.5,13.0,11.7,11.6,10.0
+458,PONTIAC,MI,483,Oakland County,5.5     ,5.7     ,5.8,6.6,13.0,11.8,9.6,8.3,8.0,6.8
+459,FLINT,MI,484,Genesee County,7.9     ,8.5     ,8.4,10.1,14.9,14.0,11.5,10.0,9.8,7.8
+460,FLINT,MI,485,Genesee County,7.9     ,8.5     ,8.4,10.1,14.9,14.0,11.5,10.0,9.8,7.8
+461,SAGINAW,MI,486,Saginaw County,8.0     ,7.7     ,7.2,8.3,12.5,12.2,10.2,9.3,9.1,7.3
+462,SAGINAW,MI,487,Saginaw County,8.0     ,7.7     ,7.2,8.3,12.5,12.2,10.2,9.3,9.1,7.3
+463,LANSING,MI,488,Ingham County,6.4     ,6.5     ,6.2,6.9,11.4,10.3,8.9,7.9,7.7,6.0
+464,LANSING,MI,489,Ingham County,6.4     ,6.5     ,6.2,6.9,11.4,10.3,8.9,7.9,7.7,6.0
+465,KALAMAZOO,MI,490,Kalamazoo County,5.2     ,5.4     ,5.4,6.1,10.2,10.0,8.5,7.3,6.9,5.6
+466,KALAMAZOO,MI,491,Kalamazoo County,5.2     ,5.4     ,5.4,6.1,10.2,10.0,8.5,7.3,6.9,5.6
+467,JACKSON,MI,492,Jackson County,6.8     ,7.4     ,7.7,8.2,13.6,12.2,10.0,8.6,8.4,6.6
+468,GRAND RAPIDS,MI,493,Kent County,5.8     ,5.8     ,5.9,6.6,11.0,10.1,8.2,6.9,6.3,4.9
+469,GRAND RAPIDS,MI,494,Kent County,5.8     ,5.8     ,5.9,6.6,11.0,10.1,8.2,6.9,6.3,4.9
+470,GRAND RAPIDS,MI,495,Kent County,5.8     ,5.8     ,5.9,6.6,11.0,10.1,8.2,6.9,6.3,4.9
+471,TRAVERSE CITY,MI,496,Grand Traverse County,6.0     ,6.2     ,6.6,7.3,11.8,11.6,9.8,8.2,7.7,5.9
+472,GAYLORD,MI,497,Otsego County,7.1     ,8.5     ,9.3,9.9,14.7,14.2,12.2,10.8,10.5,8.0
+473,KINGSFORD,MI,498,Dickinson County,5.8     ,5.9     ,6.1,6.7,11.6,11.5,9.6,8.4,8.3,6.6
+474,KINGSFORD,MI,499,Dickinson County,5.8     ,5.9     ,6.1,6.7,11.6,11.5,9.6,8.4,8.3,6.6
+475,DES MOINES,IA,500,Polk County,4.0     ,3.4     ,3.5,4.1,6.1,6.0,5.7,5.2,4.8,4.4
+476,DES MOINES,IA,501,Polk County,4.0     ,3.4     ,3.5,4.1,6.1,6.0,5.7,5.2,4.8,4.4
+477,DES MOINES,IA,502,Polk County,4.0     ,3.4     ,3.5,4.1,6.1,6.0,5.7,5.2,4.8,4.4
+478,DES MOINES,IA,503,Polk County,4.0     ,3.4     ,3.5,4.1,6.1,6.0,5.7,5.2,4.8,4.4
+479,WATERLOO,IA,504,Black Hawk County,4.3     ,3.8     ,3.7,4.1,6.1,6.2,5.8,5.4,5.1,5.1
+480,FORT DODGE,IA,505,Webster County,4.3     ,3.9     ,4.0,4.4,7.4,6.9,7.1,6.4,5.4,5.0
+481,WATERLOO,IA,506,Black Hawk County,4.3     ,3.8     ,3.7,4.1,6.1,6.2,5.8,5.4,5.1,5.1
+482,WATERLOO,IA,507,Black Hawk County,4.3     ,3.8     ,3.7,4.1,6.1,6.2,5.8,5.4,5.1,5.1
+483,CRESTON,IA,508,Union County,4.9     ,4.1     ,4.1,4.6,6.6,5.6,5.3,5.0,4.9,4.9
+484,DES MOINES,IA,509,Polk County,4.0     ,3.4     ,3.5,4.1,6.1,6.0,5.7,5.2,4.8,4.4
+485,SIOUX CITY,IA,510,Woodbury County,4.8     ,4.2     ,3.9,3.9,5.7,6.6,5.7,5.2,4.8,4.5
+486,SIOUX CITY,IA,511,Woodbury County,4.8     ,4.2     ,3.9,3.9,5.7,6.6,5.7,5.2,4.8,4.5
+487,SIOUX CITY,IA,512,Woodbury County,4.8     ,4.2     ,3.9,3.9,5.7,6.6,5.7,5.2,4.8,4.5
+488,SIOUX CITY,IA,513,Woodbury County,4.8     ,4.2     ,3.9,3.9,5.7,6.6,5.7,5.2,4.8,4.5
+489,CARROLL,IA,514,Carroll County,3.0     ,2.6     ,2.6,2.9,4.2,4.3,4.0,3.7,3.4,3.3
+490,OMAHA,NE,515,Douglas County,4.5     ,3.5     ,3.4,3.7,5.2,5.1,4.9,4.5,4.2,3.7
+491,OMAHA,NE,516,Douglas County,4.5     ,3.5     ,3.4,3.7,5.2,5.1,4.9,4.5,4.2,3.7
+492,DUBUQUE,IA,520,Dubuque County,4.3     ,3.7     ,4.0,4.4,6.6,5.8,5.1,4.5,4.6,4.3
+493,DECORAH,IA,521,Winneshiek County,4.2     ,3.6     ,3.6,4.4,6.3,5.5,5.0,4.6,4.7,4.4
+494,CEDAR RAPIDS,IA,522,Linn County,4.3     ,3.6     ,3.7,4.1,6.1,6.0,5.7,5.2,5.0,4.6
+495,CEDAR RAPIDS,IA,523,Linn County,4.3     ,3.6     ,3.7,4.1,6.1,6.0,5.7,5.2,5.0,4.6
+496,CEDAR RAPIDS,IA,524,Linn County,4.3     ,3.6     ,3.7,4.1,6.1,6.0,5.7,5.2,5.0,4.6
+497,DES MOINES,IA,525,Polk County,4.0     ,3.4     ,3.5,4.1,6.1,6.0,5.7,5.2,4.8,4.4
+498,BURLINGTON,IA,526,Des Moines County,5.4     ,4.7     ,4.4,5.9,8.0,7.4,6.7,6.2,6.1,5.2
+499,MILAN,IL,527,Rock Island County,4.6     ,4.3     ,4.5,5.5,9.2,9.5,8.5,8.1,8.3,7.1
+500,MILAN,IL,528,Rock Island County,4.6     ,4.3     ,4.5,5.5,9.2,9.5,8.5,8.1,8.3,7.1
+501,MILWAUKEE,WI,530,Milwaukee County,5.7     ,5.7     ,5.8,5.7,9.4,10.0,9.3,8.6,8.4,7.0
+502,MILWAUKEE,WI,531,Milwaukee County,5.7     ,5.7     ,5.8,5.7,9.4,10.0,9.3,8.6,8.4,7.0
+503,MILWAUKEE,WI,532,Milwaukee County,5.7     ,5.7     ,5.8,5.7,9.4,10.0,9.3,8.6,8.4,7.0
+504,MILWAUKEE,WI,534,Milwaukee County,5.7     ,5.7     ,5.8,5.7,9.4,10.0,9.3,8.6,8.4,7.0
+505,MADISON,WI,535,Dane County,3.1     ,3.3     ,3.5,3.4,5.8,5.9,5.3,4.9,4.7,3.8
+506,MADISON,WI,537,Dane County,3.1     ,3.3     ,3.5,3.4,5.8,5.9,5.3,4.9,4.7,3.8
+507,MADISON,WI,538,Dane County,3.1     ,3.3     ,3.5,3.4,5.8,5.9,5.3,4.9,4.7,3.8
+508,PORTAGE,WI,539,Columbia County,4.4     ,4.7     ,5.0,5.1,8.3,8.5,7.9,7.2,6.5,5.3
+509,EAGAN,MN,540,Dakota County,3.6     ,3.5     ,4.1,4.9,7.2,7.0,6.1,5.2,4.5,3.7
+510,GREEN BAY,WI,541,Brown County,4.5     ,4.5     ,4.6,4.6,7.7,7.9,7.2,6.6,6.2,4.9
+511,GREEN BAY,WI,542,Brown County,4.5     ,4.5     ,4.6,4.6,7.7,7.9,7.2,6.6,6.2,4.9
+512,GREEN BAY,WI,543,Brown County,4.5     ,4.5     ,4.6,4.6,7.7,7.9,7.2,6.6,6.2,4.9
+513,ROTHSCHILD,WI,544,Marathon County,4.1     ,4.3     ,4.4,4.6,8.8,9.3,7.9,7.3,6.7,5.1
+514,RHINELANDER,WI,545,Oneida County,5.8     ,5.8     ,6.2,6.1,9.7,10.2,9.4,8.7,8.6,7.1
+515,LA CROSSE,WI,546,La Crosse County,4.0     ,3.8     ,3.9,3.9,6.7,6.6,6.0,5.5,5.3,4.4
+516,EAU CLAIRE,WI,547,Eau Claire County,4.1     ,4.0     ,4.2,4.1,6.8,7.0,6.4,5.8,5.7,4.6
+517,SPOONER,WI,548,Washburn County,6.1     ,6.6     ,6.8,6.7,9.8,9.7,8.9,7.9,7.5,6.4
+518,OSHKOSH,WI,549,Winnebago County,4.4     ,4.5     ,4.6,4.4,7.7,7.8,7.1,6.6,6.4,5.3
+519,EAGAN,MN,550,Dakota County,3.6     ,3.5     ,4.1,4.9,7.2,7.0,6.1,5.2,4.5,3.7
+520,EAGAN,MN,551,Dakota County,3.6     ,3.5     ,4.1,4.9,7.2,7.0,6.1,5.2,4.5,3.7
+521,MINNEAPOLIS,MN,553,Hennepin County,3.7     ,3.6     ,4.1,4.9,7.3,7.0,6.1,5.2,4.6,3.7
+522,MINNEAPOLIS,MN,554,Hennepin County,3.7     ,3.6     ,4.1,4.9,7.3,7.0,6.1,5.2,4.6,3.7
+523,MINNEAPOLIS,MN,555,Hennepin County,3.7     ,3.6     ,4.1,4.9,7.3,7.0,6.1,5.2,4.6,3.7
+524,DULUTH,MN,556,St. Louis County,5.0     ,5.0     ,5.6,6.3,9.1,8.1,7.3,6.5,6.0,5.0
+525,DULUTH,MN,557,St. Louis County,5.0     ,5.0     ,5.6,6.3,9.1,8.1,7.3,6.5,6.0,5.0
+526,DULUTH,MN,558,St. Louis County,5.0     ,5.0     ,5.6,6.3,9.1,8.1,7.3,6.5,6.0,5.0
+527,ROCHESTER,MN,559,Olmsted County,3.5     ,3.4     ,3.8,4.4,6.1,5.9,5.3,4.4,4.0,3.4
+528,MANKATO,MN,560,Blue Earth County,3.3     ,3.3     ,3.7,4.4,6.4,6.4,5.4,4.8,4.1,3.4
+529,MANKATO,MN,561,Blue Earth County,3.3     ,3.3     ,3.7,4.4,6.4,6.4,5.4,4.8,4.1,3.4
+530,WILLMAR,MN,562,Kandiyohi County,4.1     ,3.9     ,4.3,5.0,6.7,6.7,6.0,5.2,4.7,4.2
+531,WAITE PARK,MN,563,Stearns County,4.3     ,4.0     ,4.6,5.6,7.8,7.2,6.3,5.4,4.9,4.0
+532,BRAINERD,MN,564,Crow Wing County,4.9     ,4.9     ,5.6,6.9,9.6,9.5,8.7,7.6,6.8,5.8
+533,DETROIT LAKES,MN,565,Becker County,5.4     ,5.1     ,5.7,6.8,8.6,7.9,7.1,5.8,5.4,4.7
+534,BEMIDJI,MN,566,Beltrami County,5.3     ,5.2     ,6.0,6.9,8.6,8.2,8.2,7.0,6.2,5.2
+535,GRAND FORKS,ND,567,Grand Forks County,3.2     ,3.0     ,2.9,3.0,4.0,3.5,3.7,3.4,3.0,2.9
+536,SIOUX FALLS,SD,570,Minnehaha County,3.5     ,2.8     ,2.5,2.8,5.0,5.0,4.5,4.0,3.3,3.0
+537,SIOUX FALLS,SD,571,Minnehaha County,3.5     ,2.8     ,2.5,2.8,5.0,5.0,4.5,4.0,3.3,3.0
+538,HURON,SD,572,Beadle County,4.4     ,3.0     ,2.4,2.5,3.7,4.2,3.8,3.5,3.5,3.1
+539,HURON,SD,573,Beadle County,4.4     ,3.0     ,2.4,2.5,3.7,4.2,3.8,3.5,3.5,3.1
+540,ABERDEEN,SD,574,Brown County,3.3     ,2.6     ,2.3,2.5,3.6,3.8,3.8,3.6,3.2,2.9
+541,PIERRE,SD,575,Hughes County,3.1     ,2.5     ,2.3,2.4,3.2,3.5,3.6,3.3,2.9,2.6
+542,MOBRIDGE,SD,576,Walworth County,5.1     ,4.1     ,3.9,4.3,5.1,6.9,7.0,6.1,5.4,5.3
+543,RAPID CITY,SD,577,Pennington County,3.6     ,3.0     ,2.7,2.9,4.9,5.2,4.8,4.4,3.9,3.4
+544,FARGO,ND,580,Cass County,2.7     ,2.6     ,2.6,2.7,4.1,3.5,3.2,2.9,2.8,2.5
+545,FARGO,ND,581,Cass County,2.7     ,2.6     ,2.6,2.7,4.1,3.5,3.2,2.9,2.8,2.5
+546,GRAND FORKS,ND,582,Grand Forks County,3.2     ,3.0     ,2.9,3.0,4.0,3.5,3.7,3.4,3.0,2.9
+547,DEVILS LAKE,ND,583,Ramsey County,3.8     ,4.0     ,4.0,3.8,4.2,3.8,3.8,4.1,3.8,3.7
+548,JAMESTOWN,ND,584,Stutsman County,3.2     ,3.0     ,2.9,2.9,3.5,4.1,3.8,3.4,3.1,2.9
+549,BISMARCK,ND,585,Burleigh County,2.8     ,2.7     ,2.7,2.8,3.5,3.6,3.2,2.8,2.5,2.5
+550,BISMARCK,ND,586,Burleigh County,2.8     ,2.7     ,2.7,2.8,3.5,3.6,3.2,2.8,2.5,2.5
+551,MINOT,ND,587,Ward County,3.5     ,3.1     ,3.0,3.0,3.7,3.4,3.2,2.6,2.7,2.7
+552,WILLISTON,ND,588,Williams County,2.3     ,2.1     ,1.9,1.7,2.5,2.2,1.4,1.1,1.2,1.2
+553,BILLINGS,MT,590,Yellowstone County,3.5     ,2.9     ,2.7,3.8,4.9,5.9,5.5,4.6,4.3,3.7
+554,BILLINGS,MT,591,Yellowstone County,3.5     ,2.9     ,2.7,3.8,4.9,5.9,5.5,4.6,4.3,3.7
+555,WOLF POINT,MT,592,Roosevelt County,6.8     ,6.1     ,6.3,7.4,7.8,6.9,7.1,6.7,5.6,5.3
+556,MILES CITY,MT,593,Custer County,4.0     ,3.2     ,3.4,4.2,4.9,4.5,4.1,3.6,3.4,3.3
+557,GREAT FALLS,MT,594,Cascade County,4.3     ,3.4     ,3.5,4.7,5.4,6.4,6.4,5.6,5.1,4.4
+558,HAVRE,MT,595,Hill County,4.5     ,3.9     ,4.1,5.1,5.5,5.8,6.3,5.8,6.6,5.8
+559,HELENA,MT,596,Lewis and Clark County,4.0     ,3.2     ,3.0,4.2,5.0,5.5,5.3,4.9,4.4,3.7
+560,BUTTE,MT,597,Silver Bow County,4.5     ,3.8     ,3.6,4.9,6.3,6.5,6.6,6.1,5.5,5.0
+561,MISSOULA,MT,598,Missoula County,3.9     ,3.2     ,3.4,5.0,6.3,7.3,6.7,5.9,5.2,4.5
+562,KALISPELL,MT,599,Flathead County,4.9     ,3.9     ,4.0,6.7,11.8,12.0,10.9,9.0,7.7,6.5
+563,PALATINE,IL,600,Cook County,6.4     ,4.9     ,5.3,6.4,10.5,10.9,10.4,9.6,9.6,7.4
+564,CAROL STREAM,IL,601,DuPage County,4.7     ,3.5     ,3.9,5.0,8.6,8.9,8.1,7.5,7.4,5.6
+565,PALATINE,IL,602,Cook County,6.4     ,4.9     ,5.3,6.4,10.5,10.9,10.4,9.6,9.6,7.4
+566,CAROL STREAM,IL,603,DuPage County,4.7     ,3.5     ,3.9,5.0,8.6,8.9,8.1,7.5,7.4,5.6
+567,BEDFORD PARK,IL,604,Cook County,6.4     ,4.9     ,5.3,6.4,10.5,10.9,10.4,9.6,9.6,7.4
+568,FOX VALLEY,IL,605,Kane County,5.5     ,4.0     ,4.5,6.0,10.5,11.0,9.8,8.9,8.7,7.0
+569,CHICAGO,IL,606,Cook County,6.4     ,4.9     ,5.3,6.4,10.5,10.9,10.4,9.6,9.6,7.4
+570,CHICAGO,IL,607,Cook County,6.4     ,4.9     ,5.3,6.4,10.5,10.9,10.4,9.6,9.6,7.4
+571,CHICAGO,IL,608,Cook County,6.4     ,4.9     ,5.3,6.4,10.5,10.9,10.4,9.6,9.6,7.4
+572,KANKAKEE,IL,609,Kankakee County,6.4     ,5.5     ,6.3,8.3,12.2,12.3,11.5,10.5,10.5,8.1
+573,ROCKFORD,IL,610,Winnebago County,6.3     ,5.2     ,5.9,8.4,15.0,14.0,11.9,10.6,10.5,8.3
+574,ROCKFORD,IL,611,Winnebago County,6.3     ,5.2     ,5.9,8.4,15.0,14.0,11.9,10.6,10.5,8.3
+575,MILAN,IL,612,Rock Island County,4.6     ,4.3     ,4.5,5.5,9.2,9.5,8.5,8.1,8.3,7.1
+576,LA SALLE,IL,613,LaSalle County,6.1     ,5.3     ,5.9,7.7,12.2,12.0,10.7,10.1,10.5,8.3
+577,GALESBURG,IL,614,Knox County,7.3     ,5.2     ,5.0,6.4,9.6,9.6,8.8,8.3,8.9,7.0
+578,PEORIA,IL,615,Peoria County,4.9     ,4.2     ,4.6,5.7,11.0,10.5,9.3,8.4,9.7,7.8
+579,PEORIA,IL,616,Peoria County,4.9     ,4.2     ,4.6,5.7,11.0,10.5,9.3,8.4,9.7,7.8
+580,BLOOMINGTON,IL,617,McLean County,4.1     ,3.4     ,3.7,4.9,7.2,7.1,6.7,6.4,6.6,5.5
+581,CHAMPAIGN,IL,618,Champaign County,4.1     ,3.6     ,4.2,5.5,8.3,8.2,7.8,7.4,7.6,6.1
+582,CHAMPAIGN,IL,619,Champaign County,4.1     ,3.6     ,4.2,5.5,8.3,8.2,7.8,7.4,7.6,6.1
+583,SAINT LOUIS,MO,620,Saint Louis County,8.1     ,6.9     ,7.1,7.8,11.7,11.5,10.4,8.6,8.5,7.7
+584,SAINT LOUIS,MO,622,Saint Louis County,8.1     ,6.9     ,7.1,7.8,11.7,11.5,10.4,8.6,8.5,7.7
+585,QUINCY,IL,623,Adams County,3.7     ,3.4     ,3.9,4.8,7.3,7.7,6.9,6.5,6.8,5.4
+586,EFFINGHAM,IL,624,Effingham County,5.4     ,4.0     ,4.0,5.5,8.0,7.8,6.8,6.5,7.0,5.6
+587,SPRINGFIELD,IL,625,Sangamon County,4.5     ,4.1     ,4.4,5.6,7.5,7.7,7.4,7.3,7.4,6.0
+588,SPRINGFIELD,IL,626,Sangamon County,4.5     ,4.1     ,4.4,5.6,7.5,7.7,7.4,7.3,7.4,6.0
+589,SPRINGFIELD,IL,627,Sangamon County,4.5     ,4.1     ,4.4,5.6,7.5,7.7,7.4,7.3,7.4,6.0
+590,CENTRALIA,IL,628,Jefferson County,5.1     ,4.6     ,4.9,6.2,9.6,10.2,9.3,9.1,9.4,7.5
+591,CARBONDALE,IL,629,Jackson County,4.6     ,4.0     ,4.6,5.6,7.3,8.2,8.0,7.8,8.1,6.6
+592,SAINT LOUIS,MO,630,Saint Louis County,8.1     ,6.9     ,7.1,7.8,11.7,11.5,10.4,8.6,8.5,7.7
+593,SAINT LOUIS,MO,631,Saint Louis County,8.1     ,6.9     ,7.1,7.8,11.7,11.5,10.4,8.6,8.5,7.7
+594,SAINT LOUIS,MO,633,Saint Louis County,8.1     ,6.9     ,7.1,7.8,11.7,11.5,10.4,8.6,8.5,7.7
+595,QUINCY,IL,634,Adams County,3.7     ,3.4     ,3.9,4.8,7.3,7.7,6.9,6.5,6.8,5.4
+596,QUINCY,IL,635,Adams County,3.7     ,3.4     ,3.9,4.8,7.3,7.7,6.9,6.5,6.8,5.4
+597,CAPE GIRARDEAU,MO,636,Cape Girardeau County,4.5     ,4.1     ,4.3,5.2,7.3,7.3,6.8,5.6,5.8,5.4
+598,CAPE GIRARDEAU,MO,637,Cape Girardeau County,4.5     ,4.1     ,4.3,5.2,7.3,7.3,6.8,5.6,5.8,5.4
+599,CAPE GIRARDEAU,MO,638,Cape Girardeau County,4.5     ,4.1     ,4.3,5.2,7.3,7.3,6.8,5.6,5.8,5.4
+600,CAPE GIRARDEAU,MO,639,Cape Girardeau County,4.5     ,4.1     ,4.3,5.2,7.3,7.3,6.8,5.6,5.8,5.4
+601,KANSAS CITY,MO,640,Jackson County,6.4     ,5.7     ,5.9,6.9,10.2,10.7,9.5,7.8,7.7,7.1
+602,KANSAS CITY,MO,641,Jackson County,6.4     ,5.7     ,5.9,6.9,10.2,10.7,9.5,7.8,7.7,7.1
+603,SAINT JOSEPH,MO,644,Buchanan County,5.8     ,4.6     ,4.5,5.2,8.5,9.2,8.1,6.3,6.2,5.6
+604,SAINT JOSEPH,MO,645,Buchanan County,5.8     ,4.6     ,4.5,5.2,8.5,9.2,8.1,6.3,6.2,5.6
+605,CHILLICOTHE,MO,646,Livingston County,4.8     ,4.3     ,4.4,5.2,7.7,8.2,7.6,6.2,5.6,5.0
+606,HARRISONVILLE,MO,647,Cass County,5.1     ,4.6     ,5.0,6.0,9.6,9.6,8.5,6.7,6.3,5.7
+607,SPRINGFIELD,MO,648,Greene County,4.2     ,3.8     ,4.0,5.1,8.4,8.3,7.3,5.9,5.5,4.8
+608,KANSAS CITY,MO,649,Jackson County,6.4     ,5.7     ,5.9,6.9,10.2,10.7,9.5,7.8,7.7,7.1
+609,COLUMBIA,MO,650,Boone County,3.6     ,3.3     ,3.7,4.4,6.3,6.5,5.7,4.6,4.5,4.1
+610,COLUMBIA,MO,651,Boone County,3.6     ,3.3     ,3.7,4.4,6.3,6.5,5.7,4.6,4.5,4.1
+611,COLUMBIA,MO,652,Boone County,3.6     ,3.3     ,3.7,4.4,6.3,6.5,5.7,4.6,4.5,4.1
+612,COLUMBIA,MO,653,Boone County,3.6     ,3.3     ,3.7,4.4,6.3,6.5,5.7,4.6,4.5,4.1
+613,SPRINGFIELD,MO,654,Greene County,4.2     ,3.8     ,4.0,5.1,8.4,8.3,7.3,5.9,5.5,4.8
+614,SPRINGFIELD,MO,655,Greene County,4.2     ,3.8     ,4.0,5.1,8.4,8.3,7.3,5.9,5.5,4.8
+615,SPRINGFIELD,MO,656,Greene County,4.2     ,3.8     ,4.0,5.1,8.4,8.3,7.3,5.9,5.5,4.8
+616,SPRINGFIELD,MO,657,Greene County,4.2     ,3.8     ,4.0,5.1,8.4,8.3,7.3,5.9,5.5,4.8
+617,SPRINGFIELD,MO,658,Greene County,4.2     ,3.8     ,4.0,5.1,8.4,8.3,7.3,5.9,5.5,4.8
+618,KANSAS CITY,KS,660,Wyandotte County,8.7     ,7.6     ,7.6,8.1,10.7,10.1,9.6,8.5,8.1,6.9
+619,KANSAS CITY,KS,661,Wyandotte County,8.7     ,7.6     ,7.6,8.1,10.7,10.1,9.6,8.5,8.1,6.9
+620,KANSAS CITY,KS,662,Wyandotte County,8.7     ,7.6     ,7.6,8.1,10.7,10.1,9.6,8.5,8.1,6.9
+621,TOPEKA,KS,664,Shawnee County,5.5     ,4.8     ,4.6,5.0,6.5,7.0,6.8,6.2,5.8,4.8
+622,TOPEKA,KS,665,Shawnee County,5.5     ,4.8     ,4.6,5.0,6.5,7.0,6.8,6.2,5.8,4.8
+623,TOPEKA,KS,666,Shawnee County,5.5     ,4.8     ,4.6,5.0,6.5,7.0,6.8,6.2,5.8,4.8
+624,FORT SCOTT,KS,667,Bourbon County,5.0     ,3.9     ,4.4,4.9,7.0,9.0,8.9,7.6,6.4,5.2
+625,TOPEKA,KS,668,Shawnee County,5.5     ,4.8     ,4.6,5.0,6.5,7.0,6.8,6.2,5.8,4.8
+626,SALINA,KS,669,Saline County,4.4     ,3.8     ,3.6,3.8,5.5,6.2,6.1,5.8,5.0,4.2
+627,WICHITA,KS,670,Sedgwick County,5.5     ,4.6     ,4.2,4.5,8.4,8.8,8.0,6.9,6.2,5.4
+628,WICHITA,KS,671,Sedgwick County,5.5     ,4.6     ,4.2,4.5,8.4,8.8,8.0,6.9,6.2,5.4
+629,WICHITA,KS,672,Sedgwick County,5.5     ,4.6     ,4.2,4.5,8.4,8.8,8.0,6.9,6.2,5.4
+630,INDEPENDENCE,KS,673,Montgomery County,5.8     ,4.6     ,4.9,5.6,9.8,10.6,9.9,7.8,6.8,5.8
+631,SALINA,KS,674,Saline County,4.4     ,3.8     ,3.6,3.8,5.5,6.2,6.1,5.8,5.0,4.2
+632,HUTCHINSON,KS,675,Reno County,5.0     ,4.5     ,4.2,4.1,5.8,6.4,6.1,5.5,5.3,4.4
+633,HAYS,KS,676,Ellis County,3.4     ,2.8     ,2.8,3.0,3.9,3.9,3.5,3.4,3.2,2.7
+634,COLBY,KS,677,Thomas County,3.1     ,2.9     ,3.0,3.1,3.7,4.0,3.7,3.5,3.5,2.9
+635,DODGE CITY,KS,678,Ford County,3.6     ,3.2     ,3.2,3.0,3.5,4.2,4.3,3.9,4.0,3.8
+636,LIBERAL,KS,679,Seward County,3.9     ,3.3     ,3.4,3.1,4.9,4.9,4.6,4.1,4.1,3.5
+637,OMAHA,NE,680,Douglas County,4.5     ,3.5     ,3.4,3.7,5.2,5.1,4.9,4.5,4.2,3.7
+638,OMAHA,NE,681,Douglas County,4.5     ,3.5     ,3.4,3.7,5.2,5.1,4.9,4.5,4.2,3.7
+639,LINCOLN,NE,683,Lancaster County,3.5     ,2.8     ,2.8,3.1,4.3,4.2,4.0,3.6,3.4,2.9
+640,LINCOLN,NE,684,Lancaster County,3.5     ,2.8     ,2.8,3.1,4.3,4.2,4.0,3.6,3.4,2.9
+641,LINCOLN,NE,685,Lancaster County,3.5     ,2.8     ,2.8,3.1,4.3,4.2,4.0,3.6,3.4,2.9
+642,NORFOLK,NE,686,Madison County,4.0     ,3.7     ,3.2,3.3,4.3,4.2,4.1,3.7,3.5,3.0
+643,NORFOLK,NE,687,Madison County,4.0     ,3.7     ,3.2,3.3,4.3,4.2,4.1,3.7,3.5,3.0
+644,GRAND ISLAND,NE,688,Hall County,3.8     ,3.1     ,2.8,3.1,4.2,4.6,4.5,4.0,3.7,3.8
+645,GRAND ISLAND,NE,689,Hall County,3.8     ,3.1     ,2.8,3.1,4.2,4.6,4.5,4.0,3.7,3.8
+646,MC COOK,NE,690,Red Willow County,3.5     ,2.7     ,2.5,2.9,4.5,3.7,3.5,3.2,2.9,2.6
+647,NORTH PLATTE,NE,691,Lincoln County,3.5     ,2.8     ,2.6,3.0,4.0,4.5,4.4,3.9,3.7,3.2
+648,VALENTINE,NE,692,Cherry County,2.4     ,2.2     ,2.2,2.4,2.6,3.0,3.0,2.9,2.8,2.5
+649,ALLIANCE,NE,693,Box Butte County,4.0     ,3.1     ,3.2,3.7,6.6,5.0,4.2,4.0,3.8,3.1
+650,NEW ORLEANS,LA,700,Orleans Parish,N.A.,N.A.,5.1,6.0,7.9,8.7,8.7,8.0,7.4,7.0
+651,NEW ORLEANS,LA,701,Orleans Parish,N.A.,N.A.,5.1,6.0,7.9,8.7,8.7,8.0,7.4,7.0
+652,HOUMA,LA,703,Terrebonne Parish,6.5     ,3.4     ,3.0,3.8,4.8,6.5,6.3,5.4,5.1,4.8
+653,MANDEVILLE,LA,704,St. Tammany Parish,N.A.,N.A.,3.2,4.0,5.4,6.3,6.3,6.0,5.8,5.7
+654,LAFAYETTE,LA,705,Lafayette Parish,5.2     ,3.2     ,3.0,3.4,5.1,6.2,6.0,5.1,5.0,4.9
+655,LAKE CHARLES,LA,706,Calcasieu Parish,7.5     ,3.9     ,4.1,4.5,6.3,8.0,7.7,6.9,6.5,5.9
+656,BATON ROUGE,LA,707,East Baton Rouge Parish,6.9     ,4.4     ,4.1,4.7,6.2,7.6,7.6,6.8,6.2,5.8
+657,BATON ROUGE,LA,708,East Baton Rouge Parish,6.9     ,4.4     ,4.1,4.7,6.2,7.6,7.6,6.8,6.2,5.8
+658,SHREVEPORT,LA,710,Caddo Parish,6.1     ,4.6     ,5.2,5.7,7.7,8.1,7.9,7.7,7.9,7.4
+659,SHREVEPORT,LA,711,Caddo Parish,6.1     ,4.6     ,5.2,5.7,7.7,8.1,7.9,7.7,7.9,7.4
+660,MONROE,LA,712,Ouachita Parish,6.1     ,4.2     ,5.0,5.2,7.0,8.3,8.3,7.8,7.2,7.0
+661,ALEXANDRIA,LA,713,Rapides Parish,6.2     ,4.1     ,4.2,4.6,6.4,7.6,7.7,7.1,6.9,6.7
+662,ALEXANDRIA,LA,714,Rapides Parish,6.2     ,4.1     ,4.2,4.6,6.4,7.6,7.7,7.1,6.9,6.7
+663,PINE BLUFF,AR,716,Jefferson County,7.6     ,7.8     ,7.5,7.7,9.8,10.4,11.1,10.0,10.4,8.9
+664,CAMDEN,AR,717,Ouachita County,7.0     ,8.0     ,7.3,6.4,8.0,9.6,10.5,10.4,9.7,8.1
+665,TEXARKANA,TX,718,Bowie County,5.4     ,5.3     ,4.7,4.9,6.6,8.4,8.3,7.4,7.5,6.3
+666,HOT SPRINGS NATIONAL,AR,719,Garland County,5.7     ,5.2     ,5.5,5.6,7.6,8.5,8.8,7.9,7.7,6.4
+667,LITTLE ROCK,AR,720,Pulaski County,4.8     ,4.8     ,4.7,4.8,6.7,7.3,7.4,6.9,6.6,5.6
+668,LITTLE ROCK,AR,721,Pulaski County,4.8     ,4.8     ,4.7,4.8,6.7,7.3,7.4,6.9,6.6,5.6
+669,LITTLE ROCK,AR,722,Pulaski County,4.8     ,4.8     ,4.7,4.8,6.7,7.3,7.4,6.9,6.6,5.6
+670,MEMPHIS,TN,723,Shelby County,6.2     ,5.7     ,5.1,6.9,10.1,9.8,9.5,8.6,8.9,7.9
+671,JONESBORO,AR,724,Craighead County,4.8     ,4.8     ,5.0,4.9,7.0,7.4,7.4,6.9,6.7,5.5
+672,BATESVILLE,AR,725,Independence County,6.1     ,5.5     ,6.2,7.0,8.8,8.8,9.4,9.2,9.1,8.0
+673,HARRISON,AR,726,Boone County,5.1     ,4.9     ,5.1,5.5,7.5,7.8,7.9,7.6,7.1,6.1
+674,FAYETTEVILLE,AR,727,Washington County,3.4     ,3.6     ,3.9,4.2,6.3,6.5,6.3,5.6,5.4,4.4
+675,RUSSELLVILLE,AR,728,Pope County,4.5     ,4.7     ,4.8,4.9,7.5,7.8,7.9,7.3,7.5,6.4
+676,FORT SMITH,AR,729,Sebastian County,4.3     ,4.6     ,5.1,5.0,7.6,8.0,8.7,7.9,7.6,5.8
+677,OKLAHOMA CITY,OK,730,Oklahoma County,4.6     ,4.2     ,4.4,3.9,6.1,6.1,5.3,4.8,4.9,4.2
+678,OKLAHOMA CITY,OK,731,Oklahoma County,4.6     ,4.2     ,4.4,3.9,6.1,6.1,5.3,4.8,4.9,4.2
+679,AUSTIN,TX,733,Travis County,4.5     ,4.0     ,3.6,4.2,6.7,6.8,6.4,5.5,5.0,4.0
+680,ARDMORE,OK,734,Carter County,4.4     ,3.8     ,3.4,3.2,5.5,7.1,6.4,5.5,5.4,4.5
+681,LAWTON,OK,735,Comanche County,4.5     ,4.1     ,4.3,3.8,5.2,5.8,5.7,6.0,5.9,4.8
+682,CLINTON,OK,736,Custer County,3.2     ,3.0     ,3.0,2.7,4.6,5.2,4.0,3.6,3.7,3.1
+683,ENID,OK,737,Garfield County,3.6     ,3.0     ,2.9,2.6,4.4,5.5,4.4,4.1,4.2,3.6
+684,WOODWARD,OK,738,Woodward County,3.4     ,2.7     ,2.6,2.2,6.2,6.9,4.6,3.5,3.6,3.1
+685,LIBERAL,KS,739,Seward County,3.9     ,3.3     ,3.4,3.1,4.9,4.9,4.6,4.1,4.1,3.5
+686,TULSA,OK,740,Tulsa County,4.1     ,3.8     ,3.9,3.6,6.5,7.0,6.1,5.2,5.2,4.3
+687,TULSA,OK,741,Tulsa County,4.1     ,3.8     ,3.9,3.6,6.5,7.0,6.1,5.2,5.2,4.3
+688,TULSA,OK,743,Tulsa County,4.1     ,3.8     ,3.9,3.6,6.5,7.0,6.1,5.2,5.2,4.3
+689,MUSKOGEE,OK,744,Muskogee County,6.0     ,5.1     ,5.5,4.7,7.5,8.2,7.4,6.7,6.5,5.8
+690,MCALESTER,OK,745,Pittsburg County,4.9     ,4.1     ,3.9,3.2,6.2,8.2,7.2,6.9,7.3,6.1
+691,PONCA CITY,OK,746,Osage County,4.8     ,4.1     ,4.2,4.2,7.5,7.8,6.8,6.0,5.9,5.2
+692,DURANT,OK,747,Bryan County,3.8     ,3.5     ,3.5,3.5,5.2,6.2,5.9,5.4,5.5,4.9
+693,SHAWNEE,OK,748,Pottawatomie County,5.3     ,4.4     ,4.2,3.9,6.3,6.9,6.0,5.3,5.5,4.7
+694,POTEAU,OK,749,Le Flore County,5.1     ,5.1     ,5.5,5.2,9.8,9.4,8.9,8.7,9.1,7.0
+695,COPPELL,TX,750,Denton County,4.6     ,4.2     ,3.8,4.4,7.1,7.1,6.6,5.7,5.3,4.4
+696,DALLAS,TX,751,Dallas County,5.7     ,5.1     ,4.6,5.3,8.2,8.6,8.1,7.1,6.5,5.4
+697,DALLAS,TX,752,Dallas County,5.7     ,5.1     ,4.6,5.3,8.2,8.6,8.1,7.1,6.5,5.4
+698,DALLAS,TX,753,Dallas County,5.7     ,5.1     ,4.6,5.3,8.2,8.6,8.1,7.1,6.5,5.4
+699,GREENVILLE,TX,754,Hunt County,5.5     ,5.2     ,4.6,5.3,8.2,8.9,8.8,8.2,7.3,5.8
+700,TEXARKANA,TX,755,Bowie County,5.4     ,5.3     ,4.7,4.9,6.6,8.4,8.3,7.4,7.5,6.3
+701,TYLER,TX,756,Smith County,5.0     ,4.6     ,4.1,4.8,7.6,7.9,7.8,7.0,6.5,5.2
+702,TYLER,TX,757,Smith County,5.0     ,4.6     ,4.1,4.8,7.6,7.9,7.8,7.0,6.5,5.2
+703,PALESTINE,TX,758,Anderson County,6.3     ,5.8     ,5.0,5.6,8.7,8.1,7.4,6.4,5.8,4.8
+704,LUFKIN,TX,759,Angelina County,5.5     ,4.6     ,4.3,4.7,8.2,8.5,7.9,6.9,6.4,5.2
+705,FORT WORTH,TX,760,Tarrant County,5.1     ,4.7     ,4.2,4.8,7.7,8.1,7.6,6.5,6.0,5.0
+706,FORT WORTH,TX,761,Tarrant County,5.1     ,4.7     ,4.2,4.8,7.7,8.1,7.6,6.5,6.0,5.0
+707,FORT WORTH,TX,762,Tarrant County,5.1     ,4.7     ,4.2,4.8,7.7,8.1,7.6,6.5,6.0,5.0
+708,WICHITA FALLS,TX,763,Wichita County,4.7     ,4.3     ,4.2,4.8,7.5,7.8,6.9,6.1,5.8,4.9
+709,FORT WORTH,TX,764,Tarrant County,5.1     ,4.7     ,4.2,4.8,7.7,8.1,7.6,6.5,6.0,5.0
+710,WACO,TX,765,McLennan County,5.0     ,4.8     ,4.2,4.5,6.7,7.4,7.4,6.6,6.1,5.1
+711,WACO,TX,766,McLennan County,5.0     ,4.8     ,4.2,4.5,6.7,7.4,7.4,6.6,6.1,5.1
+712,WACO,TX,767,McLennan County,5.0     ,4.8     ,4.2,4.5,6.7,7.4,7.4,6.6,6.1,5.1
+713,ABILENE,TX,768,Taylor County,4.1     ,3.8     ,3.4,3.7,5.6,6.8,6.5,5.6,5.2,4.2
+714,MIDLAND,TX,769,Midland County,3.7     ,3.3     ,2.8,2.8,5.6,5.9,4.7,3.9,3.6,2.8
+715,HOUSTON,TX,770,Harris County,5.7     ,5.0     ,4.2,4.7,7.6,8.3,7.8,6.6,6.0,4.9
+716,HOUSTON,TX,771,Harris County,5.7     ,5.0     ,4.2,4.7,7.6,8.3,7.8,6.6,6.0,4.9
+717,HOUSTON,TX,772,Harris County,5.7     ,5.0     ,4.2,4.7,7.6,8.3,7.8,6.6,6.0,4.9
+718,NORTH HOUSTON,TX,773,Harris County,5.7     ,5.0     ,4.2,4.7,7.6,8.3,7.8,6.6,6.0,4.9
+719,NORTH HOUSTON,TX,774,Harris County,5.7     ,5.0     ,4.2,4.7,7.6,8.3,7.8,6.6,6.0,4.9
+720,NORTH HOUSTON,TX,775,Harris County,5.7     ,5.0     ,4.2,4.7,7.6,8.3,7.8,6.6,6.0,4.9
+721,BEAUMONT,TX,776,Jefferson County,7.8     ,6.0     ,5.4,6.6,9.5,11.3,11.4,11.0,10.8,8.2
+722,BEAUMONT,TX,777,Jefferson County,7.8     ,6.0     ,5.4,6.6,9.5,11.3,11.4,11.0,10.8,8.2
+723,BRYAN,TX,778,Brazos County,4.2     ,4.0     ,3.6,3.9,5.5,6.3,6.0,5.3,4.9,3.9
+724,VICTORIA,TX,779,Victoria County,4.5     ,4.0     ,3.4,3.8,6.9,7.7,6.7,5.5,5.3,4.1
+725,SAN ANTONIO,TX,780,Bexar County,5.1     ,4.7     ,4.1,4.6,6.7,7.3,7.2,6.3,5.8,4.6
+726,SAN ANTONIO,TX,781,Bexar County,5.1     ,4.7     ,4.1,4.6,6.7,7.3,7.2,6.3,5.8,4.6
+727,SAN ANTONIO,TX,782,Bexar County,5.1     ,4.7     ,4.1,4.6,6.7,7.3,7.2,6.3,5.8,4.6
+728,CORPUS CHRISTI,TX,783,Nueces County,5.4     ,4.8     ,4.2,4.5,6.7,8.1,7.9,6.5,6.1,5.0
+729,CORPUS CHRISTI,TX,784,Nueces County,5.4     ,4.8     ,4.2,4.5,6.7,8.1,7.9,6.5,6.1,5.0
+730,MCALLEN,TX,785,Hidalgo County,7.9     ,7.3     ,6.5,7.1,10.5,11.8,11.6,10.6,10.2,8.7
+731,AUSTIN,TX,786,Travis County,4.5     ,4.0     ,3.6,4.2,6.7,6.8,6.4,5.5,5.0,4.0
+732,AUSTIN,TX,787,Travis County,4.5     ,4.0     ,3.6,4.2,6.7,6.8,6.4,5.5,5.0,4.0
+733,SAN ANTONIO,TX,788,Bexar County,5.1     ,4.7     ,4.1,4.6,6.7,7.3,7.2,6.3,5.8,4.6
+734,AUSTIN,TX,789,Travis County,4.5     ,4.0     ,3.6,4.2,6.7,6.8,6.4,5.5,5.0,4.0
+735,AMARILLO,TX,790,Randall County,3.5     ,3.3     ,2.9,3.1,4.6,5.2,4.9,4.4,4.3,3.4
+736,AMARILLO,TX,791,Randall County,3.5     ,3.3     ,2.9,3.1,4.6,5.2,4.9,4.4,4.3,3.4
+737,CHILDRESS,TX,792,Childress County,5.6     ,5.5     ,4.8,5.0,6.1,5.6,5.2,4.4,4.2,3.7
+738,LUBBOCK,TX,793,Lubbock County,4.1     ,3.9     ,3.6,3.7,5.4,6.3,6.0,5.3,4.9,3.9
+739,LUBBOCK,TX,794,Lubbock County,4.1     ,3.9     ,3.6,3.7,5.4,6.3,6.0,5.3,4.9,3.9
+740,ABILENE,TX,795,Taylor County,4.1     ,3.8     ,3.4,3.7,5.6,6.8,6.5,5.6,5.2,4.2
+741,ABILENE,TX,796,Taylor County,4.1     ,3.8     ,3.4,3.7,5.6,6.8,6.5,5.6,5.2,4.2
+742,MIDLAND,TX,797,Midland County,3.7     ,3.3     ,2.8,2.8,5.6,5.9,4.7,3.9,3.6,2.8
+743,EL PASO,TX,798,El Paso County,7.0     ,6.7     ,5.8,6.1,8.8,9.2,9.5,8.6,8.0,6.5
+744,EL PASO,TX,799,El Paso County,7.0     ,6.7     ,5.8,6.1,8.8,9.2,9.5,8.6,8.0,6.5
+745,DENVER,CO,800,Denver County,5.7     ,4.8     ,4.1,5.4,8.1,9.1,8.6,7.8,6.6,4.9
+746,DENVER,CO,801,Denver County,5.7     ,4.8     ,4.1,5.4,8.1,9.1,8.6,7.8,6.6,4.9
+747,DENVER,CO,802,Denver County,5.7     ,4.8     ,4.1,5.4,8.1,9.1,8.6,7.8,6.6,4.9
+748,DENVER,CO,803,Denver County,5.7     ,4.8     ,4.1,5.4,8.1,9.1,8.6,7.8,6.6,4.9
+749,DENVER,CO,804,Denver County,5.7     ,4.8     ,4.1,5.4,8.1,9.1,8.6,7.8,6.6,4.9
+750,LONGMONT,CO,805,Boulder County,4.4     ,3.7     ,3.3,4.1,6.1,7.0,6.4,6.1,5.4,4.1
+751,DENVER,CO,806,Denver County,5.7     ,4.8     ,4.1,5.4,8.1,9.1,8.6,7.8,6.6,4.9
+752,DENVER,CO,807,Denver County,5.7     ,4.8     ,4.1,5.4,8.1,9.1,8.6,7.8,6.6,4.9
+753,COLORADO SPRINGS,CO,808,El Paso County,5.3     ,4.6     ,4.2,5.7,7.9,9.3,9.0,8.8,7.9,6.0
+754,COLORADO SPRINGS,CO,809,El Paso County,5.3     ,4.6     ,4.2,5.7,7.9,9.3,9.0,8.8,7.9,6.0
+755,COLORADO SPRINGS,CO,810,El Paso County,5.3     ,4.6     ,4.2,5.7,7.9,9.3,9.0,8.8,7.9,6.0
+756,ALAMOSA,CO,811,Alamosa County,5.5     ,4.6     ,4.0,5.2,6.3,9.0,9.5,10.2,9.4,7.1
+757,SALIDA,CO,812,Chaffee County,5.3     ,4.3     ,3.6,4.5,6.3,7.7,7.1,6.8,6.1,4.4
+758,DURANGO,CO,813,La Plata County,3.8     ,3.4     ,2.8,3.6,5.4,7.1,6.9,6.6,5.7,4.2
+759,GRAND JUNCTION,CO,814,Mesa County,4.9     ,4.0     ,3.2,3.9,8.4,11.0,10.1,9.5,8.5,6.2
+760,GRAND JUNCTION,CO,815,Mesa County,4.9     ,4.0     ,3.2,3.9,8.4,11.0,10.1,9.5,8.5,6.2
+761,GLENWOOD SPRINGS,CO,816,Garfield County,3.7     ,3.0     ,2.5,3.1,7.0,10.3,9.4,8.3,7.3,5.2
+762,CHEYENNE,WY,820,Laramie County,4.1     ,3.9     ,3.5,3.9,6.5,6.7,6.2,5.8,4.8,4.5
+763,BILLINGS,MT,821,Yellowstone County,3.5     ,2.9     ,2.7,3.8,4.9,5.9,5.5,4.6,4.3,3.7
+764,WHEATLAND,WY,822,Platte County,4.8     ,4.4     ,4.0,4.1,6.0,5.5,5.0,4.9,4.4,4.0
+765,RAWLINS,WY,823,Carbon County,3.9     ,3.3     ,2.9,3.2,7.2,6.7,6.0,5.2,4.3,4.2
+766,WORLAND,WY,824,Washakie County,4.1     ,3.6     ,3.5,3.5,6.1,5.9,5.6,5.2,5.0,4.5
+767,RIVERTON,WY,825,Fremont County,4.7     ,4.3     ,3.8,4.1,7.7,6.9,6.4,6.1,5.7,5.2
+768,CASPER,WY,826,Natrona County,3.4     ,3.0     ,2.6,2.8,6.6,7.0,6.1,5.0,4.5,4.2
+769,GILLETTE,WY,827,Campbell County,2.6     ,2.1     ,2.0,2.0,5.3,6.0,4.9,4.6,4.2,3.5
+770,SHERIDAN,WY,828,Sheridan County,3.8     ,3.2     ,2.8,3.1,6.8,7.3,6.9,6.2,5.5,4.8
+771,ROCK SPRINGS,WY,829,Sweetwater County,2.9     ,2.5     ,2.2,2.4,6.4,6.6,5.2,4.8,4.4,4.2
+772,ROCK SPRINGS,WY,830,Sweetwater County,2.9     ,2.5     ,2.2,2.4,6.4,6.6,5.2,4.8,4.4,4.2
+773,ROCK SPRINGS,WY,831,Sweetwater County,2.9     ,2.5     ,2.2,2.4,6.4,6.6,5.2,4.8,4.4,4.2
+774,POCATELLO,ID,832,Bannock County,3.9     ,3.4     ,3.0,4.7,7.8,8.0,7.5,6.9,5.8,4.6
+775,TWIN FALLS,ID,833,Twin Falls County,3.7     ,3.4     ,2.8,4.1,7.0,8.5,7.8,6.8,5.6,4.3
+776,POCATELLO,ID,834,Bannock County,3.9     ,3.4     ,3.0,4.7,7.8,8.0,7.5,6.9,5.8,4.6
+777,LEWISTON,ID,835,Nez Perce County,4.4     ,3.6     ,3.0,4.6,6.8,6.7,6.3,5.8,5.0,4.1
+778,BOISE,ID,836,Ada County,3.3     ,2.7     ,2.7,4.9,8.9,8.3,7.3,6.2,5.2,4.1
+779,BOISE,ID,837,Ada County,3.3     ,2.7     ,2.7,4.9,8.9,8.3,7.3,6.2,5.2,4.1
+780,SPOKANE,WA,838,Spokane County,5.9     ,5.4     ,5.3,6.0,9.3,10.1,9.5,8.8,8.1,7.1
+781,SALT LAKE CITY,UT,840,Salt Lake County,4.0     ,2.9     ,2.5,3.4,7.1,7.7,6.6,5.3,4.5,3.7
+782,SALT LAKE CITY,UT,841,Salt Lake County,4.0     ,2.9     ,2.5,3.4,7.1,7.7,6.6,5.3,4.5,3.7
+783,SALT LAKE CITY,UT,842,Salt Lake County,4.0     ,2.9     ,2.5,3.4,7.1,7.7,6.6,5.3,4.5,3.7
+784,SALT LAKE CITY,UT,843,Salt Lake County,4.0     ,2.9     ,2.5,3.4,7.1,7.7,6.6,5.3,4.5,3.7
+785,SALT LAKE CITY,UT,844,Salt Lake County,4.0     ,2.9     ,2.5,3.4,7.1,7.7,6.6,5.3,4.5,3.7
+786,PROVO,UT,845,Utah County,3.9     ,2.9     ,2.4,3.5,7.0,7.4,6.3,5.0,4.3,3.5
+787,PROVO,UT,846,Utah County,3.9     ,2.9     ,2.4,3.5,7.0,7.4,6.3,5.0,4.3,3.5
+788,PROVO,UT,847,Utah County,3.9     ,2.9     ,2.4,3.5,7.0,7.4,6.3,5.0,4.3,3.5
+789,PHOENIX,AZ,850,Maricopa County,4.0     ,3.6     ,3.3,5.4,9.1,9.5,8.6,7.3,6.6,5.9
+790,PHOENIX,AZ,852,Maricopa County,4.0     ,3.6     ,3.3,5.4,9.1,9.5,8.6,7.3,6.6,5.9
+791,PHOENIX,AZ,853,Maricopa County,4.0     ,3.6     ,3.3,5.4,9.1,9.5,8.6,7.3,6.6,5.9
+792,GLOBE,AZ,855,Gila County,5.9     ,5.2     ,4.3,6.5,11.4,12.5,11.6,10.2,9.5,8.4
+793,TUCSON,AZ,856,Pima County,4.5     ,4.1     ,3.7,5.8,9.1,9.3,8.5,7.4,6.8,6.2
+794,TUCSON,AZ,857,Pima County,4.5     ,4.1     ,3.7,5.8,9.1,9.3,8.5,7.4,6.8,6.2
+795,SHOW LOW,AZ,859,Navajo County,8.1     ,7.4     ,6.4,10.1,15.3,14.7,14.9,14.3,13.6,11.3
+796,FLAGSTAFF,AZ,860,Coconino County,4.9     ,4.4     ,3.7,5.6,8.5,9.9,9.6,8.6,8.1,7.2
+797,PRESCOTT,AZ,863,Yavapai County,4.4     ,4.0     ,3.7,6.2,10.5,10.7,9.9,8.7,7.7,6.3
+798,KINGMAN,AZ,864,Mohave County,4.3     ,4.3     ,4.7,7.7,11.4,13.0,12.3,11.0,10.3,8.8
+799,GALLUP,NM,865,McKinley County,6.6     ,5.6     ,4.6,5.5,8.3,9.9,9.9,9.5,9.9,9.8
+800,ALBUQUERQUE,NM,870,Bernalillo County,4.7     ,3.8     ,3.6,4.4,7.5,7.7,7.3,6.9,6.5,6.1
+801,ALBUQUERQUE,NM,871,Bernalillo County,4.7     ,3.8     ,3.6,4.4,7.5,7.7,7.3,6.9,6.5,6.1
+802,ALBUQUERQUE,NM,872,Bernalillo County,4.7     ,3.8     ,3.6,4.4,7.5,7.7,7.3,6.9,6.5,6.1
+803,GALLUP,NM,873,McKinley County,6.6     ,5.6     ,4.6,5.5,8.3,9.9,9.9,9.5,9.9,9.8
+804,FARMINGTON,NM,874,San Juan County,5.3     ,4.3     ,3.4,3.9,7.9,9.4,7.8,7.1,6.8,6.3
+805,ALBUQUERQUE,NM,875,Bernalillo County,4.7     ,3.8     ,3.6,4.4,7.5,7.7,7.3,6.9,6.5,6.1
+806,LAS VEGAS,NM,877,San Miguel County,6.2     ,4.8     ,4.2,4.9,7.3,9.5,9.4,8.6,7.9,7.7
+807,SOCORRO,NM,878,Socorro County,4.4     ,3.7     ,3.2,3.6,5.3,7.8,7.6,6.9,7.3,7.2
+808,TRUTH OR CONSEQUENCE,NM,879,Sierra County,5.4     ,4.4     ,3.5,4.1,5.8,9.4,9.8,9.6,9.2,8.8
+809,LAS CRUCES,NM,880,Dona Ana County,5.6     ,4.7     ,4.2,4.7,7.3,7.7,7.6,7.3,7.5,7.2
+810,CLOVIS,NM,881,Curry County,4.1     ,3.4     ,2.8,3.2,4.5,5.4,5.1,4.9,5.1,4.9
+811,ROSWELL,NM,882,Chaves County,5.8     ,4.4     ,3.9,4.3,7.0,7.6,6.8,6.5,6.3,6.0
+812,ALAMOGORDO,NM,883,Otero County,4.9     ,4.2     ,3.8,4.4,6.7,7.2,6.7,6.4,6.3,6.1
+813,TUCUMCARI,NM,884,Quay County,5.3     ,4.6     ,4.5,4.9,6.8,9.3,9.3,7.7,6.9,6.2
+814,EL PASO,TX,885,El Paso County,7.0     ,6.7     ,5.8,6.1,8.8,9.2,9.5,8.6,8.0,6.5
+815,LAS VEGAS,NV,889,Clark County,4.1     ,4.0     ,4.5,6.6,11.5,13.8,13.3,11.3,9.6,7.8
+816,LAS VEGAS,NV,890,Clark County,4.1     ,4.0     ,4.5,6.6,11.5,13.8,13.3,11.3,9.6,7.8
+817,LAS VEGAS,NV,891,Clark County,4.1     ,4.0     ,4.5,6.6,11.5,13.8,13.3,11.3,9.6,7.8
+818,ELY,NV,893,White Pine County,3.9     ,3.7     ,3.6,4.7,6.9,9.2,8.7,7.7,7.1,6.0
+819,RENO,NV,894,Washoe County,3.9     ,3.8     ,4.3,6.8,11.1,12.9,12.6,11.0,9.4,7.4
+820,RENO,NV,895,Washoe County,3.9     ,3.8     ,4.3,6.8,11.1,12.9,12.6,11.0,9.4,7.4
+821,RENO,NV,897,Washoe County,3.9     ,3.8     ,4.3,6.8,11.1,12.9,12.6,11.0,9.4,7.4
+822,ELKO,NV,898,Elko County,3.5     ,3.4     ,3.3,4.3,6.3,7.7,7.3,6.3,6.1,5.5
+823,LOS ANGELES,CA,900,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+824,LOS ANGELES,CA,901,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+825,INGLEWOOD,CA,902,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+826,INGLEWOOD,CA,903,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+827,INGLEWOOD,CA,904,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+828,LONG BEACH,CA,905,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+829,LONG BEACH,CA,906,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+830,LONG BEACH,CA,907,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+831,LONG BEACH,CA,908,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+832,PASADENA,CA,910,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+833,PASADENA,CA,911,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+834,PASADENA,CA,912,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+835,SANTA CLARITA,CA,913,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+836,SANTA CLARITA,CA,914,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+837,SANTA CLARITA,CA,915,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+838,SANTA CLARITA,CA,916,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+839,CITY OF INDUSTRY,CA,917,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+840,CITY OF INDUSTRY,CA,918,Los Angeles County,5.4     ,4.8     ,5.1,7.6,11.6,12.5,12.2,10.9,9.8,8.3
+841,SAN DIEGO,CA,919,San Diego County,4.3     ,4.0     ,4.6,6.0,9.4,10.7,10.3,9.1,7.8,6.4
+842,SAN DIEGO,CA,920,San Diego County,4.3     ,4.0     ,4.6,6.0,9.4,10.7,10.3,9.1,7.8,6.4
+843,SAN DIEGO,CA,921,San Diego County,4.3     ,4.0     ,4.6,6.0,9.4,10.7,10.3,9.1,7.8,6.4
+844,SAN BERNARDINO,CA,922,San Bernardino County,5.2     ,4.8     ,5.6,8.0,12.7,13.5,12.9,11.4,9.8,8.1
+845,SAN BERNARDINO,CA,923,San Bernardino County,5.2     ,4.8     ,5.6,8.0,12.7,13.5,12.9,11.4,9.8,8.1
+846,SAN BERNARDINO,CA,924,San Bernardino County,5.2     ,4.8     ,5.6,8.0,12.7,13.5,12.9,11.4,9.8,8.1
+847,SAN BERNARDINO,CA,925,San Bernardino County,5.2     ,4.8     ,5.6,8.0,12.7,13.5,12.9,11.4,9.8,8.1
+848,SANTA ANA,CA,926,Orange County,3.7     ,3.4     ,3.9,5.3,8.7,9.7,9.0,7.8,6.5,5.5
+849,SANTA ANA,CA,927,Orange County,3.7     ,3.4     ,3.9,5.3,8.7,9.7,9.0,7.8,6.5,5.5
+850,ANAHEIM,CA,928,Orange County,3.7     ,3.4     ,3.9,5.3,8.7,9.7,9.0,7.8,6.5,5.5
+851,OXNARD,CA,930,Ventura County,4.7     ,4.3     ,4.9,6.3,9.6,10.8,10.2,9.1,7.9,6.7
+852,GOLETA,CA,931,Santa Barbara County,4.3     ,4.0     ,4.4,5.5,8.2,9.7,9.3,8.3,7.1,6.1
+853,BAKERSFIELD,CA,932,Kern County,8.4     ,7.5     ,8.2,9.8,14.1,15.6,14.8,13.2,11.7,10.4
+854,BAKERSFIELD,CA,933,Kern County,8.4     ,7.5     ,8.2,9.8,14.1,15.6,14.8,13.2,11.7,10.4
+855,GOLETA,CA,934,Santa Barbara County,4.3     ,4.0     ,4.4,5.5,8.2,9.7,9.3,8.3,7.1,6.1
+856,MOJAVE,CA,935,Kern County,8.4     ,7.5     ,8.2,9.8,14.1,15.6,14.8,13.2,11.7,10.4
+857,FRESNO,CA,936,Fresno County,9.0     ,8.0     ,8.6,10.6,14.7,16.7,16.5,15.2,13.2,11.6
+858,FRESNO,CA,937,Fresno County,9.0     ,8.0     ,8.6,10.6,14.7,16.7,16.5,15.2,13.2,11.6
+859,FRESNO,CA,938,Fresno County,9.0     ,8.0     ,8.6,10.6,14.7,16.7,16.5,15.2,13.2,11.6
+860,SALINAS,CA,939,Monterey County,7.3     ,6.9     ,7.1,8.5,11.5,12.7,12.7,11.6,10.3,9.1
+861,SAN FRANCISCO,CA,940,San Francisco County,5.0     ,4.2     ,4.2,5.3,8.7,8.9,8.1,6.8,5.5,4.4
+862,SAN FRANCISCO,CA,941,San Francisco County,5.0     ,4.2     ,4.2,5.3,8.7,8.9,8.1,6.8,5.5,4.4
+863,WEST SACRAMENTO,CA,942,Yolo County,5.5     ,5.2     ,5.7,7.4,11.0,12.2,11.8,10.7,9.1,7.7
+864,SAN FRANCISCO,CA,943,San Francisco County,5.0     ,4.2     ,4.2,5.3,8.7,8.9,8.1,6.8,5.5,4.4
+865,SAN FRANCISCO,CA,944,San Francisco County,5.0     ,4.2     ,4.2,5.3,8.7,8.9,8.1,6.8,5.5,4.4
+866,OAKLAND,CA,945,Alameda County,5.1     ,4.4     ,4.7,6.2,10.3,10.9,10.1,8.7,7.3,5.9
+867,OAKLAND,CA,946,Alameda County,5.1     ,4.4     ,4.7,6.2,10.3,10.9,10.1,8.7,7.3,5.9
+868,OAKLAND,CA,947,Alameda County,5.1     ,4.4     ,4.7,6.2,10.3,10.9,10.1,8.7,7.3,5.9
+869,OAKLAND,CA,948,Alameda County,5.1     ,4.4     ,4.7,6.2,10.3,10.9,10.1,8.7,7.3,5.9
+870,PETALUMA,CA,949,Sonoma County,4.4     ,4.0     ,4.3,5.8,9.4,10.7,10.1,8.8,7.0,5.6
+871,SAN JOSE,CA,950,Santa Clara County,5.3     ,4.5     ,4.7,6.0,10.6,10.4,9.3,7.9,6.5,5.2
+872,SAN JOSE,CA,951,Santa Clara County,5.3     ,4.5     ,4.7,6.0,10.6,10.4,9.3,7.9,6.5,5.2
+873,STOCKTON,CA,952,San Joaquin County,7.9     ,7.4     ,8.1,10.4,14.9,16.5,16.2,14.4,12.4,10.6
+874,STOCKTON,CA,953,San Joaquin County,7.9     ,7.4     ,8.1,10.4,14.9,16.5,16.2,14.4,12.4,10.6
+875,PETALUMA,CA,954,Sonoma County,4.4     ,4.0     ,4.3,5.8,9.4,10.7,10.1,8.8,7.0,5.6
+876,EUREKA,CA,955,Humboldt County,6.1     ,5.5     ,5.9,7.3,10.7,10.6,10.6,9.6,8.2,6.8
+877,WEST SACRAMENTO,CA,956,Yolo County,5.5     ,5.2     ,5.7,7.4,11.0,12.2,11.8,10.7,9.1,7.7
+878,WEST SACRAMENTO,CA,957,Yolo County,5.5     ,5.2     ,5.7,7.4,11.0,12.2,11.8,10.7,9.1,7.7
+879,WEST SACRAMENTO,CA,958,Yolo County,5.5     ,5.2     ,5.7,7.4,11.0,12.2,11.8,10.7,9.1,7.7
+880,MARYSVILLE,CA,959,Yuba County,9.0     ,8.8     ,9.3,11.9,16.8,17.8,17.0,15.4,13.1,11.2
+881,REDDING,CA,960,Shasta County,7.2     ,6.6     ,7.5,10.1,14.3,16.8,16.0,14.2,11.8,9.7
+882,RENO,NV,961,Washoe County,3.9     ,3.8     ,4.3,6.8,11.1,12.9,12.6,11.0,9.4,7.4
+883,HONOLULU,HI,967,Honolulu County,2.8     ,2.5     ,2.6,3.8,6.0,6.0,5.9,5.4,4.4,4.1
+884,HONOLULU,HI,968,Honolulu County,2.8     ,2.5     ,2.6,3.8,6.0,6.0,5.9,5.4,4.4,4.1
+885,BARRIGADA,GU,969,,,,,,,,,,,
+886,PORTLAND,OR,970,Multnomah County,6.1     ,5.1     ,4.9,5.9,10.6,9.6,8.3,7.6,6.8,6.1
+887,PORTLAND,OR,971,Multnomah County,6.1     ,5.1     ,4.9,5.9,10.6,9.6,8.3,7.6,6.8,6.1
+888,PORTLAND,OR,972,Multnomah County,6.1     ,5.1     ,4.9,5.9,10.6,9.6,8.3,7.6,6.8,6.1
+889,SALEM,OR,973,Marion County,6.5     ,5.6     ,5.4,6.6,11.1,11.2,10.5,9.9,8.8,7.5
+890,SPRINGFIELD,OR,974,Lane County,6.1     ,5.4     ,5.2,6.7,12.3,11.0,9.6,8.9,7.9,7.1
+891,MEDFORD,OR,975,Jackson County,6.2     ,5.7     ,5.6,7.9,12.8,12.5,11.7,11.1,9.7,8.6
+892,KLAMATH FALLS,OR,976,Klamath County,7.7     ,6.6     ,6.9,9.2,14.1,12.9,12.0,11.7,10.8,9.7
+893,BEND,OR,977,Deschutes County,5.7     ,4.6     ,5.0,8.2,14.9,13.8,12.3,11.2,9.5,7.9
+894,PENDLETON,OR,978,Umatilla County,7.9     ,6.7     ,5.8,6.6,9.8,10.3,9.5,9.0,8.7,7.9
+895,BOISE,ID,979,Ada County,3.3     ,2.7     ,2.7,4.9,8.9,8.3,7.3,6.2,5.2,4.1
+896,SEATTLE,WA,980,King County,4.4     ,3.7     ,3.2,3.9,8.0,9.0,8.0,6.4,4.9,4.6
+897,SEATTLE,WA,981,King County,4.4     ,3.7     ,3.2,3.9,8.0,9.0,8.0,6.4,4.9,4.6
+898,EVERETT,WA,982,Snohomish County,4.8     ,4.1     ,3.5,4.6,9.4,10.7,9.5,7.5,5.7,5.1
+899,TACOMA,WA,983,Pierce County,6.1     ,5.6     ,5.3,6.1,9.7,10.4,10.0,9.1,8.3,7.2
+900,TACOMA,WA,984,Pierce County,6.1     ,5.6     ,5.3,6.1,9.7,10.4,10.0,9.1,8.3,7.2
+901,TUMWATER,WA,985,Thurston County,5.3     ,5.0     ,4.9,5.4,7.9,9.0,8.8,8.3,7.5,6.6
+902,PORTLAND,OR,986,Multnomah County,6.1     ,5.1     ,4.9,5.9,10.6,9.6,8.3,7.6,6.8,6.1
+903,WENATCHEE,WA,988,Chelan County,6.2     ,5.6     ,5.5,5.9,8.1,8.9,8.4,7.8,7.2,6.4
+904,YAKIMA,WA,989,Yakima County,7.8     ,7.4     ,7.0,7.3,9.0,10.6,10.6,10.3,9.9,8.9
+905,SPOKANE,WA,990,Spokane County,5.9     ,5.4     ,5.3,6.0,9.3,10.1,9.5,8.8,8.1,7.1
+906,SPOKANE,WA,991,Spokane County,5.9     ,5.4     ,5.3,6.0,9.3,10.1,9.5,8.8,8.1,7.1
+907,SPOKANE,WA,992,Spokane County,5.9     ,5.4     ,5.3,6.0,9.3,10.1,9.5,8.8,8.1,7.1
+908,PASCO,WA,993,Franklin County,7.4     ,7.6     ,6.9,6.6,8.4,8.9,9.0,9.5,9.3,8.5
+909,LEWISTON,ID,994,Nez Perce County,4.4     ,3.6     ,3.0,4.6,6.8,6.7,6.3,5.8,5.0,4.1
+910,ANCHORAGE,AK,995,Anchorage Borough/municipality,5.5     ,5.3     ,5.1,5.4,6.5,6.6,6.0,5.4,5.2,5.1
+911,ANCHORAGE,AK,996,Anchorage Borough/municipality,5.5     ,5.3     ,5.1,5.4,6.5,6.6,6.0,5.4,5.2,5.1
+912,FAIRBANKS,AK,997,Fairbanks North Star Borough,5.8     ,5.7     ,5.6,6.1,7.1,6.6,6.5,6.1,5.8,5.7
+913,JUNEAU,AK,998,Juneau Borough/city,5.3     ,4.8     ,4.5,4.8,5.9,5.9,5.5,5.1,5.0,5.1
+914,KETCHIKAN,AK,999,Ketchikan Gateway Borough,6.7     ,6.1     ,5.7,5.9,7.1,8.7,8.5,7.9,7.5,7.6
