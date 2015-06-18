@@ -1,4 +1,5 @@
 City,State,Zip3,County
+MELVILLE,NY,005,Nassau County
 SAN JUAN,PR,009,San Juan Municipio
 SPRINGFIELD,MA,011,Hampden County
 SHREWSBURY,MA,015,Worcester County
@@ -16,10 +17,12 @@ WHITE RIVER JUNCTION,VT,050,Windsor County
 ESSEX JUNCTION,VT,054,Chittenden County
 HARTFORD,CT,061,Hartford County
 WALLINGFORD,CT,064,New Haven County
+WATERBURY,CT,067,New Haven County
 STAMFORD,CT,069,Fairfield County
 KEARNY,NJ,070,Hudson County
 TETERBORO,NJ,076,Bergen County
 EATONTOWN,NJ,077,Monmouth County
+WHIPPANY,NJ,078,Morris County
 BELLMAWR,NJ,080,Camden County
 TRENTON,NJ,086,Mercer County
 EDISON,NJ,088,Middlesex County
@@ -37,6 +40,7 @@ GLENS FALLS,NY,128,Warren County
 PLATTSBURGH,NY,129,Clinton County
 SYRACUSE,NY,132,Onondaga County
 UTICA,NY,135,Oneida County
+WATERTOWN,NY,136,Jefferson County
 BINGHAMTON,NY,139,Broome County
 BUFFALO,NY,142,Erie County
 ROCHESTER,NY,146,Monroe County
@@ -55,11 +59,14 @@ HARRISBURG,PA,171,Dauphin County
 LANCASTER,PA,176,Lancaster County
 WILLIAMSPORT,PA,177,Lycoming County
 LEHIGH VALLEY,PA,180,Lehigh County
+WILKES BARRE,PA,182,Luzerne County
 SCRANTON,PA,185,Lackawanna County
 SOUTHEASTERN,PA,193,Montgomery County
 PHILADELPHIA,PA,191,Philadelphia County
 READING,PA,196,Berks County
+WILMINGTON,DE,197,New Castle County
 WASHINGTON,DC,200,Washington County
+WASHINGTON,DC,202,Washington County
 DULLES,VA,201,Loudoun County
 CAPITOL HEIGHTS,MD,207,Prince George's County
 GAITHERSBURG,MD,208,Montgomery County
@@ -69,7 +76,9 @@ CUMBERLAND,MD,215,Allegany County
 EASTON,MD,216,Talbot County
 FREDERICK,MD,217,Frederick County
 MERRIFIELD,VA,220,Fairfax County
+WINCHESTER,VA,226,Frederick County
 CULPEPER,VA,227,Culpeper County
+CHARLOTTESVILLE,VA,228,Albemarle County
 SANDSTON,VA,231,Henrico County
 NORFOLK,VA,235,Norfolk city
 FARMVILLE,VA,239,Prince Edward County
@@ -80,6 +89,8 @@ BLUEFIELD,WV,247,Mercer County
 LEWISBURG,WV,249,Greenbrier County
 CHARLESTON,WV,253,Kanawha County
 MARTINSBURG,WV,254,Berkeley County
+HUNTINGTON,WV,255,Cabell County
+BECKLEY,WV,258,Raleigh County
 WHEELING,WV,260,Ohio County
 PARKERSBURG,WV,261,Wood County
 CLARKSBURG,WV,263,Harrison County
@@ -109,6 +120,7 @@ VALDOSTA,GA,316,Lowndes County
 ALBANY,GA,317,Dougherty County
 COLUMBUS,GA,319,Muscogee County
 JACKSONVILLE,FL,322,Duval County
+DAYTONA BEACH,FL,321,Volusia County
 TALLAHASSEE,FL,323,Leon County
 PANAMA CITY,FL,324,Bay County
 PENSACOLA,FL,325,Escambia County
@@ -148,6 +160,7 @@ JACKSON,MS,392,Hinds County
 MERIDIAN,MS,393,Lauderdale County
 HATTIESBURG,MS,394,Forrest County
 GULFPORT,MS,395,Harrison County
+MCCOMB,MS,396,Pike County
 COLUMBUS,MS,397,Lowndes County
 LOUISVILLE,KY,402,Jefferson County
 LEXINGTON,KY,405,Fayette County
@@ -163,6 +176,7 @@ SOMERSET,KY,425,Pulaski County
 ELIZABETHTOWN,KY,427,Hardin County
 COLUMBUS,OH,432,Franklin County
 TOLEDO,OH,436,Lucas County
+ZANESVILLE,OH,437,Muskingum County
 STEUBENVILLE,OH,439,Jefferson County
 CLEVELAND,OH,441,Cuyahoga County
 AKRON,OH,443,Summit County
@@ -173,6 +187,7 @@ CINCINNATI,OH,452,Hamilton County
 DAYTON,OH,454,Montgomery County
 CHILLICOTHE,OH,456,Ross County
 ATHENS,OH,457,Athens County
+LIMA,OH,458,Allen County
 INDIANAPOLIS,IN,462,Marion County
 GARY,IN,464,Lake County
 SOUTH BEND,IN,466,St. Joseph County
@@ -199,9 +214,10 @@ DES MOINES,IA,503,Polk County
 FORT DODGE,IA,505,Webster County
 WATERLOO,IA,507,Black Hawk County
 CRESTON,IA,508,Union County
+SIOUX CITY,IA,510,Woodbury County
 SIOUX FALLS,SD,571,Minnehaha County
 CARROLL,IA,514,Carroll County
-DUBUQUE,IA,52a,Dubuque County0
+DUBUQUE,IA,520,Dubuque County
 DECORAH,IA,521,Winneshiek County
 CEDAR RAPIDS,IA,524,Linn County
 BURLINGTON,IA,526,Des Moines County
@@ -272,9 +288,11 @@ CHILLICOTHE,MO,646,Livingston County
 HARRISONVILLE,MO,647,Cass County
 COLUMBIA,MO,652,Boone County
 SPRINGFIELD,MO,658,Greene County
+KANSAS CITY,KS,660,Wyandotte County
 TOPEKA,KS,666,Shawnee County
 FORT SCOTT,KS,667,Bourbon County
 WICHITA,KS,672,Sedgwick County
+INDEPENDENCE,KS,673,Montgomery County
 SALINA,KS,674,Saline County
 HUTCHINSON,KS,675,Reno County
 HAYS,KS,676,Ellis County
@@ -290,16 +308,21 @@ NORTH PLATTE,NE,691,Lincoln County
 VALENTINE,NE,692,Cherry County
 ALLIANCE,NE,693,Box Butte County
 NEW ORLEANS,LA,701,Orleans Parish
+HOUMA,LA,703,Terrebonne Parish
 MANDEVILLE,LA,704,St. Tammany Parish
 LAFAYETTE,LA,705,Lafayette Parish
+LAKE CHARLES,LA,706,Calcasieu Parish
 BATON ROUGE,LA,708,East Baton Rouge Parish
 SHREVEPORT,LA,711,Caddo Parish
 MONROE,LA,712,Ouachita Parish
+ALEXANDRIA,LA,713,Rapides Parish
 PINE BLUFF,AR,716,Jefferson County
 CAMDEN,AR,717,Ouachita County
+TEXARKANA,TX,718,Bowie County
 HOT SPRINGS NATIONAL,AR,719,Garland County
 LITTLE ROCK,AR,722,Pulaski County
 JONESBORO,AR,724,Craighead County
+BATESVILLE,AR,725,Independence County
 HARRISON,AR,726,Boone County
 FAYETTEVILLE,AR,727,Washington County
 RUSSELLVILLE,AR,728,Pope County
@@ -319,15 +342,18 @@ SHAWNEE,OK,748,Pottawatomie County
 POTEAU,OK,749,Le Flore County
 COPPELL,TX,750,Denton County
 DALLAS,TX,752,Dallas County
+GREENVILLE,TX,754,Hunt County
 TYLER,TX,757,Smith County
 PALESTINE,TX,758,Anderson County
 LUFKIN,TX,759,Angelina County
 FORT WORTH,TX,761,Tarrant County
+WICHITA FALLS,TX,763,Wichita County
 WACO,TX,767,McLennan County
 HOUSTON,TX,772,Harris County
 NORTH HOUSTON,TX,773,Harris County
 BEAUMONT,TX,777,Jefferson County
 BRYAN,TX,778,Brazos County
+VICTORIA,TX,779,Victoria County
 SAN ANTONIO,TX,782,Bexar County
 CORPUS CHRISTI,TX,784,Nueces County
 MCALLEN,TX,785,Hidalgo County
@@ -339,11 +365,13 @@ ABILENE,TX,796,Taylor County
 MIDLAND,TX,797,Midland County
 EL PASO,TX,799,El Paso County
 DENVER,CO,802,Denver County
+LONGMONT,CO,805,Boulder County
 COLORADO SPRINGS,CO,809,El Paso County
 ALAMOSA,CO,811,Alamosa County
 SALIDA,CO,812,Chaffee County
 DURANGO,CO,813,La Plata County
 GRAND JUNCTION,CO,815,Mesa County
+GLENWOOD SPRINGS,CO,816,Garfield County
 CHEYENNE,WY,820,Laramie County
 WHEATLAND,WY,822,Platte County
 RAWLINS,WY,823,Carbon County
@@ -382,6 +410,7 @@ ELY,NV,893,White Pine CountyC
 RENO,NV,895,Washoe County
 ELKO,NV,898,Elko County
 LOS ANGELES,CA,900,Los Angeles County
+INGLEWOOD,CA,902,Los Angeles County
 LONG BEACH,CA,908,Los Angeles County
 PASADENA,CA,911,Los Angeles County
 SANTA CLARITA,CA,913,Los Angeles County
@@ -390,8 +419,10 @@ SAN DIEGO,CA,921,San Diego County
 SAN BERNARDINO,CA,924,San Bernardino County
 SANTA ANA,CA,927,Orange County
 ANAHEIM,CA,928,Orange County
+OXNARD,CA,930,Ventura County
 GOLETA,CA,931,Santa Barbara County
 BAKERSFIELD,CA,933,Kern County
+MOJAVE,CA,935,Kern County
 FRESNO,CA,937,Fresno County
 SALINAS,CA,939,Monterey County
 SAN FRANCISCO,CA,941,San Francisco County
@@ -401,8 +432,10 @@ SAN JOSE,CA,951,Santa Clara County
 STOCKTON,CA,952,San Joaquin County
 EUREKA,CA,955,Humboldt County
 WEST SACRAMENTO,CA,957,Yolo County
+MARYSVILLE,CA,959,Yuba County
 REDDING,CA,960,Shasta County
 HONOLULU,HI,968,Honolulu County
+BARRIGADA,GU,969,
 PORTLAND,OR,972,Multnomah County
 SALEM,OR,973,Marion County
 SPRINGFIELD,OR,974,Lane County
