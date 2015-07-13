@@ -1,9 +1,26 @@
 import pandas as pd
 import numpy as np
+from sklearn.preprocessing import LabelEncoder
+
+encoderMap = {}
+def encodeColumns(df, column):
+    if column in encoderMap:
+        encoder = encoderMap[column]
+    else:
+        encoder = LabelEncoder()
+        encoder.fit(df[column])
+        encoderMap[column] = encoder
+    df[column] = encoder.transform(df[column])
+    return df
 
 def loadTrainTest():
     loans = pd.read_csv('data/LoanStats3.csv.bz2', compression='bz2', low_memory=False)
-
+    
+    label_columns = ['term', 'grade', 'sub_grade', 'emp_length', 'home_ownership',
+		    'verification_status', 'purpose', 'zip_code', 'addr_state']
+    for column in label_columns:
+	    loans = encodeColumns(loans, column)
+    print loans['addr_state']
     dates = pd.DataFrame(data={'issue_d': loans.issue_d.unique()})
     dates['issue_date'] = dates.issue_d.apply(lambda s: pd.datetime.strptime(s, '%b-%Y'))
     loans = loans.merge(dates, on='issue_d')
