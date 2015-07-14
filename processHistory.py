@@ -133,11 +133,11 @@ def generateOutcomes(recentMonths, old):
             next
         prev_mob = mob
         
-        # The history file doesn't accurately record "In Grace Period" status.  We can get it from the loan file for recent loans.
-        if old:
-            finalStatus = status
-        else:
+        # The history file very rarely records "In Grace Period" status.  We can get it from the loan file for recent loans.
+        if not old and status == 'Current' and loan.loan_status == 'In Grace Period':
             finalStatus = loan.loan_status
+        else:
+            finalStatus = status
             
         npv += received / (monthlyDiscountRate ** mob)
         numeratorNAR += receivedNAR
@@ -163,7 +163,7 @@ def generateOutcomes(recentMonths, old):
 
 outcomesTrain = generateOutcomes(recentMonths, old=True)
 outcomesTrain['npvPseudo'] = fastpseudo.fast_pseudo_mean(
-    robjects.vectors.IntVector(np.floor(outcomesTrain.npv+1)*1000/1.3), 
+    robjects.vectors.IntVector(np.floor((outcomesTrain.npv+1)*100/1.3)), 
     robjects.vectors.IntVector(outcomesTrain.finalStatusIsComplete),
     1000)
 outcomesTrain.to_csv("data/outcomesTrain.csv")
