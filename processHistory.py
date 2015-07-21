@@ -19,9 +19,19 @@ dates['issue_date'] = dates.issue_d.apply(lambda s: pd.datetime.strptime(s, '%b-
 loans = loans.merge(dates, on='issue_d')
 loans.set_index('id', inplace=True)
 
-# Generate the string date format used in the payment history file
-dates['issue_d_hist'] = dates.issue_date.apply(lambda d: d.strftime('%b%Y').upper())
-# Build a list of recent months for the SQL filter
+mb = pd.datetools.MonthBegin()
+d = pd.datetools.parse('2007-06-01')
+maxDate = pd.datetime.now()
+out = []
+i=0
+while d <= maxDate:
+    out.append((i, d, d.strftime("%b-%Y"), d.strftime("%b%Y").upper()))
+    d += mb
+    i += 1
+dates = pd.DataFrame(out, columns=('month_num', 'issue_date', 'issue_d', 'issue_d_hist'))
+
+monthToNum = {k:int(v) for k,v in 
+              dates.set_index('issue_d_hist').month_num.iteritems()}
 recentMonths = "('" + "','".join(dates[dates.issue_date >= pd.datetools.parse('2014-01-01')].issue_d_hist) + "')"
 
 # Monthly risk free rates for calculating NPV
@@ -45,7 +55,7 @@ principalDiscountRates = {
 
 connection = monetdb.sql.connect(username="monetdb", password="monetdb", hostname="localhost", database="demo")
 
-def generateOutcomes(recentMonths, old):
+def generateOutcomes(recentMonths, old=True, sample=None, id=None, printCashflow=False):
     # Note: MonetDB must be installed and populated first by calling the lendingClub.R loadHistory function
     # Raw data from http://additionalstatistics.lendingclub.com/ "Payments made to investors"
     cursor = connection.cursor()
@@ -54,6 +64,8 @@ def generateOutcomes(recentMonths, old):
         SELECT
             loan_id,
             mob,
+            "Month",
+            received_d,
             case when pco_recovery_investors is not null then
                 pco_recovery_investors - pco_collection_fee_investors
             else
@@ -64,23 +76,56 @@ def generateOutcomes(recentMonths, old):
                 pco_recovery_investors - pco_collection_fee_investors
             else
                 0
-            end + 0.99*(int_paid_investors + fee_paid_investors)
-                - coamt_investors as receivedNAR,
-                
+            end + 0.99*(int_paid_investors + fee_paid_investors) as receivedNAR,
+            coamt_investors,
             due_amt_investors as due,
             pbal_beg_period_investors as balance,
+            pbal_end_period_investors as balance_end,
             period_end_lstat
         FROM history_inv
     """ 
-    if old:
-        sql += "WHERE received_d not in " + recentMonths
+    if sample is not None:
+        sql += ' LIMIT ' + str(sample)
+    elif id is not None:
+        sql += " WHERE loan_id=" + str(id)
+    elif old:
+        sql += " WHERE IssuedDate not in " + recentMonths
     else:
-        sql += "WHERE IssuedDate in " + recentMonths
-#    sql += " and loan_id='9755029'"
+        sql += " WHERE IssuedDate in " + recentMonths
     cursor.execute(sql)
     
+    outputLabels = (
+        'loan_id',
+        'finalStatus',
+        'monthsObserved',
+        'missedPayment',
+        'firstMissed',
+        'dueWhenFirstMissed',
+        'receivedAfterMissed',
+        'riskFreeRate',
+        'npv',
+        'npvForecast',
+        'firstMissedOrLastObserved',
+        'numeratorNAR',
+        'denominatorNAR',
+        'finalStatusIsComplete',
+        'irrForecast',
+        #'cashflow'
+    )
     def outputRow():
-        numeratorNARdiscount = balance * principalDiscountRates[finalStatus]
+        #NOTE: The fields of the db row, such a loan_id, are no longer available when this is called.
+        discountRate = principalDiscountRates[finalStatus]
+        numeratorNARdiscount = prev_balance_end * discountRate
+        cashflowLen = len(cashflow)
+        while cashflow[cashflowLen-1]==0: cashflowLen -= 1
+        cashflow.resize(max(cashflowLen, receivedMonthIndex+1))
+        npv = np.npv(monthlyDiscountRate-1, cashflow)
+        if printCashflow: print(cashflow)
+        if finalStatus != 'Charged Off':
+            cashflow[receivedMonthIndex] += prev_balance_end * (1-discountRate) / prev_investment
+        if printCashflow: print(cashflow)
+        npvForecast = np.npv(monthlyDiscountRate-1, cashflow)
+        irrForecast = (1+np.irr(cashflow))**12 - 1
         finalStatusIsComplete = finalStatus in ["Charged Off", "Default", "Fully Paid"]
         output.append((
                 prev_loan_id,
@@ -91,18 +136,21 @@ def generateOutcomes(recentMonths, old):
                 dueWhenFirstMissed,
                 receivedAfterMissed,
                 riskFreeRate,
-                npv/investment,
+                npv,
+                npvForecast,
                 firstMissedOrLastObserved,
-                (numeratorNAR-numeratorNARdiscount)/investment,
-                denominatorNAR/investment,
-                finalStatusIsComplete))
-        
+                (numeratorNAR-numeratorNARdiscount)/prev_investment,
+                denominatorNAR/prev_investment,
+                finalStatusIsComplete,
+                irrForecast,
+                #cashflow
+            ))        
 
     output = []
     prev_loan_id = -1
     row = cursor.fetchone() 
     while row is not None:
-        loan_id, mob, received, receivedNAR, due, balance, status = row
+        loan_id, mob, month, received_d, received, receivedNAR, coamt, due, balance, balance_end, status = row
         if loan_id != prev_loan_id:
             # Output previous loan stats
             if prev_loan_id != -1:
@@ -117,9 +165,9 @@ def generateOutcomes(recentMonths, old):
             monthlyDiscountRate = (1 + riskFreeRate/100) ** (1/12)
 
             investment = loan.funded_amnt_inv
-            npv = -investment
             prev_mob = -1
             prev_loan_id = loan_id
+            prev_investment = investment
             firstMissed = -1
             firstMissedOrLastObserved = 0
             missedPayment = False
@@ -127,11 +175,17 @@ def generateOutcomes(recentMonths, old):
             dueWhenFirstMissed = 0
             numeratorNAR = 0
             denominatorNAR = 0
+            cashflow = np.zeros(100)
+            cashflow[0] = -1
+            firstMonthNum = monthToNum[month]
             
         # Skip duplicate rows
         if mob == prev_mob: 
             next
         prev_mob = mob
+        prev_balance = balance
+        prev_balance_end = balance_end
+        prev_received = received
         
         # The history file very rarely records "In Grace Period" status.  We can get it from the loan file for recent loans.
         if not old and status == 'Current' and loan.loan_status == 'In Grace Period':
@@ -139,9 +193,13 @@ def generateOutcomes(recentMonths, old):
         else:
             finalStatus = status
             
-        npv += received / (monthlyDiscountRate ** mob)
-        numeratorNAR += receivedNAR
+        numeratorNAR += receivedNAR - coamt
         denominatorNAR += balance
+        if received_d is not None:
+            receivedMonthIndex = monthToNum[received_d]-firstMonthNum+1
+        else:
+            receivedMonthIndex = monthToNum[month]-firstMonthNum+1
+        cashflow[receivedMonthIndex] += received/investment
 
         totalMonths = mob
         if missedPayment:
@@ -158,8 +216,7 @@ def generateOutcomes(recentMonths, old):
         row = cursor.fetchone()
 
     outputRow()
-    return pd.DataFrame.from_records(output, index='loan_id',
-        columns=['loan_id', 'finalStatus', 'monthsObserved', 'missedPayment', 'firstMissed', 'dueWhenFirstMissed', 'receivedAfterMissed', 'riskFreeRate', 'npv', 'firstMissedOrLastObserved', 'numeratorNAR', 'denominatorNAR', 'finalStatusIsComplete'])
+    return pd.DataFrame.from_records(output, index='loan_id', columns=outputLabels)
 
 outcomesTrain = generateOutcomes(recentMonths, old=True)
 outcomesTrain['npvPseudo'] = fastpseudo.fast_pseudo_mean(
